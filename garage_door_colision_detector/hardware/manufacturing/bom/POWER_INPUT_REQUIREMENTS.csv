@@ -1,0 +1,5 @@
+Item,Quantity,Specification,Implementation,Status
+DC input socket,2,"Panel-mount female; mates with 5.5 x 2.1 mm plug; centre-positive; voltage and current ratings to exceed design limits","Centre to existing +12V terminal; sleeve to GND; unused switch contact insulated","Format selected; exact manufacturer part and 3D model pending"
+External adapter,2,"Certified isolated regulated 12 V DC output; 5.5 x 2.1 mm centre-positive plug; current rating pending final load budget","One per side; no parallel connection between adapters","Do not buy 12 V AC output or 5.5 x 2.5 mm plug"
+Controller buck,1,"Murata OKI-78SR-5/1.5-W36-C; 5 V / 1.5 A rated; provisional system budget 1 A","Retain protected input and USB programming power disconnect","See POWER_STAGE_REVIEW.csv and docs/POWER_STAGE_REVIEW.html; thermal and capacitor qualification pending"
+Emitter power distribution,1,"Protected 12 V input to matched emitter heads","No ESP32 and no boost converter on far side","Exact terminals and fuse pending sensor selection"

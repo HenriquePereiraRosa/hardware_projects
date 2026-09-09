@@ -1,0 +1,24 @@
+COMP|PS1|GST25E12-P1J|GST25E12-P1J
+PARAM|PS1|Manufacturer|MEAN WELL
+PARAM|PS1|Manufacturer Part Number|GST25E12-P1J
+PARAM|PS1|Package|EXTERNAL EQUIPMENT
+PARAM|PS1|Populate|Yes
+PARAM|PS1|Intended footprint|NONE - external plug-in adapter
+PARAM|PS1|CAD status|Native external-equipment component with DC pins; no invented PCB footprint or 3D body
+PIN|PS1|P|+12V|20000000|16800000
+PIN|PS1|N|0V|20000000|14200000
+PARAM|PS1|Datasheet|https://www.meanwell.com/Upload/PDF/GST25E/GST25E-SPEC.PDF
+PARAM|PS1|DC connector|5.5 x 2.1 mm centre positive; keep adapter intact
+PARAM|PS1|Comment|GST25E12-P1J
+COMP|PS2|GST25E12-P1J|GST25E12-P1J
+PARAM|PS2|Manufacturer|MEAN WELL
+PARAM|PS2|Manufacturer Part Number|GST25E12-P1J
+PARAM|PS2|Package|EXTERNAL EQUIPMENT
+PARAM|PS2|Populate|Yes
+PARAM|PS2|Intended footprint|NONE - external plug-in adapter
+PARAM|PS2|CAD status|Native external-equipment component with DC pins; no invented PCB footprint or 3D body
+PIN|PS2|P|+12V|91600000|16800000
+PIN|PS2|N|0V|91600000|14200000
+PARAM|PS2|Datasheet|https://www.meanwell.com/Upload/PDF/GST25E/GST25E-SPEC.PDF
+PARAM|PS2|DC connector|5.5 x 2.1 mm centre positive; keep adapter intact
+PARAM|PS2|Comment|GST25E12-P1J

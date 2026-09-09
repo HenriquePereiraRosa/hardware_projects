@@ -1,0 +1,6 @@
+[Design]
+Version=1.0
+[Document1]
+DocumentPath=HierarchyUpdateV2.pas
+[Generic_ScriptingSystem]
+StartProcName=HierarchyUpdateV2.pas>UpdateHierarchy

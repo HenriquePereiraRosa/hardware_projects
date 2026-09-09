@@ -1,0 +1,6 @@
+[Design]
+Version=1.0
+[Document1]
+DocumentPath=MountingPowerUpdate.pas
+[Generic_ScriptingSystem]
+StartProcName=MountingPowerUpdate.pas>BuildProfessionalOverview

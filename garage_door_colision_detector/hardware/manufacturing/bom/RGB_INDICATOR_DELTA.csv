@@ -1,0 +1,9 @@
+Reference,Quantity,Manufacturer,Part number,Description,CAD status
+Q2 Q3 Q4,3,Alpha and Omega Semiconductor,AO3400A,30V NMOS SOT-23 pin1 Gate pin2 Source pin3 Drain,Upstream SOT-23 STEP downloaded; native link pending
+R14 R15 R16,3,Yageo,RC0805FR-07100RL,100 ohm 0805 gate series resistor,Footprint and 3D link pending
+R17 R21 R23,3,Yageo,RC0805FR-07100KL,100k ohm 0805 gate pull-down,Footprint and 3D link pending
+F2,1,Littelfuse,0451.500MRL,0.5A very fast fuse 2410 RGB branch,Footprint and coordination pending
+J5,1,Phoenix Contact,1729144,Four-position terminal 5.08mm +12V R- G- B-,Footprint and 3D link pending
+LED_STRIP,0.15m,Adafruit,346,Documented alternative 12V analog RGB 60LED/m common anode,External part not mounted on PCB
+DIFFUSER,1,User selected,TBD,Opal cover and aluminium channel fitting 15cm strip,Measure bought strip and mounting space
+BZ1 D5,0,Removed,N/A,Buzzer and buzzer flyback diode removed,Do not populate

@@ -1,0 +1,6 @@
+Priority,Item,Search specification,Approximate price,AliExpress link,Engineering note
+1,Controller enclosure,IP65 ABS junction box 100x80x50 mm,EUR 4-8,https://www.aliexpress.com/w/wholesale-ip65-abs-enclosure-100x80x50.html,Provisional target only if the available sensor-centre gap is about 100 mm; check internal bosses before ordering PCB
+2,Controller enclosure larger alternative,IP65 ABS junction box 115x90x55 mm,EUR 5-10,https://www.aliexpress.com/w/wholesale-ip65-abs-junction-box-115x90x55.html,Easier wiring and cable bend radius; likely too wide if the hard external limit is 100 mm
+1,Cable glands,PG7 IP68 cable gland assortment,EUR 2-5,https://www.aliexpress.com/w/wholesale-pg7-cable-gland.html,Choose gland seals matching the measured cable outside diameter
+1,PCB supports,M3 nylon standoff assortment,EUR 2-5,https://www.aliexpress.com/w/wholesale-m3-nylon-standoff-kit.html,Use four supports and keep screw tips away from the enclosure wall
+2,Threaded inserts,M3 brass heat-set inserts,EUR 2-5,https://www.aliexpress.com/w/wholesale-m3-heat-set-insert.html,For a printed internal mounting plate or adjustable optical bracket

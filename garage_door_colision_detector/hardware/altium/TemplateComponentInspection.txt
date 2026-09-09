@@ -1,0 +1,49 @@
+COUNT=48
+PCB1|0001|PCI|=ProjectName
+LD1|LED2|LED2|Led
+U2|07.1140|MCP39F501|Energy Meter
+C6|Capacitor Cerâmico SMD|Capacitor Cerâmico SMD|Capacitor Cerâmico SMD
+C8|Capacitor Cerâmico SMD|Capacitor Cerâmico SMD|Capacitor Cerâmico SMD
+R4|Res3|Res3|Resistor
+R3|Res3|Res3|Resistor
+R5|Res3|Res3|Resistor
+R20|Res3|Res3|Resistor
+C1|Capacitor Cerâmico SMD|Capacitor Cerâmico SMD|Capacitor Cerâmico SMD
+C12|Capacitor Cerâmico SMD|Capacitor Cerâmico SMD|Capacitor Cerâmico SMD
+R14|Res3|Res3|Resistor
+R21|Res3|Res3|Resistor
+C13|Capacitor Cerâmico SMD|Capacitor Cerâmico SMD|Capacitor Cerâmico SMD
+C11|Capacitor Cerâmico SMD|Capacitor Cerâmico SMD|Capacitor Cerâmico SMD
+R8|Res3|Res3|Resistor
+R12|Res3|Res3|Resistor
+C10|Capacitor Cerâmico SMD|Capacitor Cerâmico SMD|Capacitor Cerâmico SMD
+R7|Res3|Res3|Resistor
+R13|Res3|Res3|Resistor
+R2|Res3|Res3|Resistor
+C3|Capacitor Cerâmico SMD|Capacitor Cerâmico SMD|Capacitor Cerâmico SMD
+CN1|5mm|FASTON FEMEA 180G|Faston Fêmea 90graus
+CN2|5mm|FASTON FEMEA 180G|Faston Fêmea 90graus
+CN3|##nl|TESTPOINT|Testpoint
+R1|Res3|Res3|Resistor
+L1|03.0045|742 792 43|Indutor
+C2|02.0032|cap 220nF / 400V|Capacitor de Poliéster - MKP
+D1|Diode|Diode|Default Diode
+D2|Diode|Diode|Default Diode
+D4|Diode|Diode|Default Diode
+D3|Diode|Diode|Default Diode
+DZ1|Zener Diode|Diode Zener|Zener Diode
+L2|03.0105|744 031 101|Indutor
+R17|Res3|Res3|Resistor
+CN4|11.0417|PCMC2-04|Conector header
+R18|Res3|Res3|Resistor
+R6|Res3|Res3|Resistor
+C9|Capacitor Cerâmico SMD|Capacitor Cerâmico SMD|Capacitor Cerâmico SMD
+C4|Capacitor Cerâmico SMD|Capacitor Cerâmico SMD|Capacitor Cerâmico SMD
+R10|Res3|Res3|Resistor
+U4|07.0195|OPTO 4N25-M|Optoacoplador(Branco)
+U3|07.0195|OPTO 4N25-M|Optoacoplador(Branco)
+R19|Res3|Res3|Resistor
+R11|Res3|Res3|Resistor
+R16|Res3|Res3|Resistor
+R9|Res3|Res3|Resistor
+R15|Res3|Res3|Resistor

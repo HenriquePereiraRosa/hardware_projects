@@ -1,0 +1,5 @@
+Priority,Use,Manufacturer,Exact search name,Pin count,Nominal mechanical envelope,USB,Approximate price,AliExpress link,Engineering note
+1,Low-cost prototype,DOIT-compatible,ESP32 DevKit V1 ESP-WROOM-32 30 pin,30,Allow 55x30mm clearance,Micro-USB or USB-C,EUR 4-8,https://www.aliexpress.com/w/wholesale-esp32-devkit-v1-30-pin.html,PRIMARY LOW-COST OPTION - buy the pictured 30-pin version and verify header spacing before PCB order
+2,Dimensionally controlled prototype,Espressif,ESP32-DevKitC V4 ESP32-WROOM-32E,38,Use official Espressif DXF,Micro-USB,EUR 10-18,https://www.aliexpress.com/w/wholesale-esp32-devkitc-v4.html,PREFERRED RELIABILITY OPTION - verify seller is supplying genuine Espressif hardware
+3,Common alternative,NodeMCU,NodeMCU-32S ESP32 38 pin,38,Allow 55x30mm clearance,Micro-USB,EUR 5-10,https://www.aliexpress.com/w/wholesale-nodemcu-32s-38-pin.html,Do not substitute into the 30-pin socket footprint
+

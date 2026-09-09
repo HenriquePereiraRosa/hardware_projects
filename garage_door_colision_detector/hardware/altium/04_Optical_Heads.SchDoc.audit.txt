@@ -1,0 +1,242 @@
+COMP|TX1|E3Z-T61-L 2M|OMRON_E3Z_T61_L_2M
+PARAM|TX1|Manufacturer|Omron
+PARAM|TX1|Manufacturer Part Number|E3Z-T61-L 2M
+PARAM|TX1|Package|EXTERNAL CABLED HEAD
+PARAM|TX1|Populate|Yes
+PARAM|TX1|Intended footprint|NONE - external wired device
+PARAM|TX1|CAD status|Native reusable part-specific symbol. External cabled assembly: no PCB pads. Manufacturer STEP blocked by HTTP 403.
+PIN|TX1|BN|+V|14400000|63000000
+PIN|TX1|BU|0V|14400000|59000000
+PARAM|TX1|Order as pair|E3Z-T61 2M
+PARAM|TX1|Body dimensions mm|10.8 W x 31 H x 20 D
+PARAM|TX1|Mounting|Two M3 holes at 25.4 mm centres; optical face toward opposite upright
+PARAM|TX1|Cable|Integral 2 m cable; BN brown +V / BU blue 0V / receiver BK black OUT
+PARAM|TX1|Supply|12-24 VDC nominal; use regulated 12 V
+PARAM|TX1|Datasheet|https://industrial.omron.eu/en/products/E3Z-T61-2M
+PARAM|TX1|3D download|https://download.ia.omron.com/download/zip/ST/OEE/E3Z_T61/
+PARAM|TX1|BOM note|Buy one E3Z-T61 2M pair per TX/RX pair, not two pairs
+PARAM|TX1|Symbol representation|Complete powered photoelectric head; optical glyph is functional, not a bare discrete diode
+PARAM|TX1|Symbol provenance|Project-authored native Altium library; based on identified manufacturer part and pinout, not vendor-issued CAD
+PARAM|TX1|Comment|E3Z-T61-L 2M
+COMP|RX1|E3Z-T61-D 2M|OMRON_E3Z_T61_D_2M
+PARAM|RX1|Manufacturer|Omron
+PARAM|RX1|Manufacturer Part Number|E3Z-T61-D 2M
+PARAM|RX1|Package|EXTERNAL CABLED HEAD
+PARAM|RX1|Populate|Yes
+PARAM|RX1|Intended footprint|NONE - external wired device
+PARAM|RX1|CAD status|Native reusable part-specific symbol. External cabled assembly: no PCB pads. Manufacturer STEP blocked by HTTP 403.
+PIN|RX1|BN|+V|55400000|63000000
+PIN|RX1|BU|0V|55400000|59000000
+PIN|RX1|BK|OUT|66600000|59000000
+PARAM|RX1|Order as pair|E3Z-T61 2M
+PARAM|RX1|Body dimensions mm|10.8 W x 31 H x 20 D
+PARAM|RX1|Mounting|Two M3 holes at 25.4 mm centres; optical face toward opposite upright
+PARAM|RX1|Cable|Integral 2 m cable; BN brown +V / BU blue 0V / receiver BK black OUT
+PARAM|RX1|Supply|12-24 VDC nominal; use regulated 12 V
+PARAM|RX1|Datasheet|https://industrial.omron.eu/en/products/E3Z-T61-2M
+PARAM|RX1|3D download|https://download.ia.omron.com/download/zip/ST/OEE/E3Z_T61/
+PARAM|RX1|BOM note|Buy one E3Z-T61 2M pair per TX/RX pair, not two pairs
+PARAM|RX1|Symbol representation|Complete powered photoelectric head; optical glyph is functional, not a bare discrete diode
+PARAM|RX1|Symbol provenance|Project-authored native Altium library; based on identified manufacturer part and pinout, not vendor-issued CAD
+PARAM|RX1|Comment|E3Z-T61-D 2M
+WIRE|1|14400000|63000000
+WIRE|2|10500000|63000000
+NET|TX_12V|10500000|63000000
+WIRE|1|14400000|59000000
+WIRE|2|10500000|59000000
+NET|TX_0V|10500000|59000000
+WIRE|1|55400000|63000000
+WIRE|2|50000000|63000000
+NET|12V_SENSOR|50000000|63000000
+WIRE|1|55400000|59000000
+WIRE|2|50000000|59000000
+NET|GND|50000000|59000000
+WIRE|1|66600000|59000000
+WIRE|2|69000000|59000000
+NET|BEAM1_SIG|69000000|59000000
+COMP|TX2|E3Z-T61-L 2M|OMRON_E3Z_T61_L_2M
+PARAM|TX2|Manufacturer|Omron
+PARAM|TX2|Manufacturer Part Number|E3Z-T61-L 2M
+PARAM|TX2|Package|EXTERNAL CABLED HEAD
+PARAM|TX2|Populate|Yes
+PARAM|TX2|Intended footprint|NONE - external wired device
+PARAM|TX2|CAD status|Native reusable part-specific symbol. External cabled assembly: no PCB pads. Manufacturer STEP blocked by HTTP 403.
+PIN|TX2|BN|+V|14400000|49500000
+PIN|TX2|BU|0V|14400000|45500000
+PARAM|TX2|Order as pair|E3Z-T61 2M
+PARAM|TX2|Body dimensions mm|10.8 W x 31 H x 20 D
+PARAM|TX2|Mounting|Two M3 holes at 25.4 mm centres; optical face toward opposite upright
+PARAM|TX2|Cable|Integral 2 m cable; BN brown +V / BU blue 0V / receiver BK black OUT
+PARAM|TX2|Supply|12-24 VDC nominal; use regulated 12 V
+PARAM|TX2|Datasheet|https://industrial.omron.eu/en/products/E3Z-T61-2M
+PARAM|TX2|3D download|https://download.ia.omron.com/download/zip/ST/OEE/E3Z_T61/
+PARAM|TX2|BOM note|Buy one E3Z-T61 2M pair per TX/RX pair, not two pairs
+PARAM|TX2|Symbol representation|Complete powered photoelectric head; optical glyph is functional, not a bare discrete diode
+PARAM|TX2|Symbol provenance|Project-authored native Altium library; based on identified manufacturer part and pinout, not vendor-issued CAD
+PARAM|TX2|Comment|E3Z-T61-L 2M
+COMP|RX2|E3Z-T61-D 2M|OMRON_E3Z_T61_D_2M
+PARAM|RX2|Manufacturer|Omron
+PARAM|RX2|Manufacturer Part Number|E3Z-T61-D 2M
+PARAM|RX2|Package|EXTERNAL CABLED HEAD
+PARAM|RX2|Populate|Yes
+PARAM|RX2|Intended footprint|NONE - external wired device
+PARAM|RX2|CAD status|Native reusable part-specific symbol. External cabled assembly: no PCB pads. Manufacturer STEP blocked by HTTP 403.
+PIN|RX2|BN|+V|55400000|49500000
+PIN|RX2|BU|0V|55400000|45500000
+PIN|RX2|BK|OUT|66600000|45500000
+PARAM|RX2|Order as pair|E3Z-T61 2M
+PARAM|RX2|Body dimensions mm|10.8 W x 31 H x 20 D
+PARAM|RX2|Mounting|Two M3 holes at 25.4 mm centres; optical face toward opposite upright
+PARAM|RX2|Cable|Integral 2 m cable; BN brown +V / BU blue 0V / receiver BK black OUT
+PARAM|RX2|Supply|12-24 VDC nominal; use regulated 12 V
+PARAM|RX2|Datasheet|https://industrial.omron.eu/en/products/E3Z-T61-2M
+PARAM|RX2|3D download|https://download.ia.omron.com/download/zip/ST/OEE/E3Z_T61/
+PARAM|RX2|BOM note|Buy one E3Z-T61 2M pair per TX/RX pair, not two pairs
+PARAM|RX2|Symbol representation|Complete powered photoelectric head; optical glyph is functional, not a bare discrete diode
+PARAM|RX2|Symbol provenance|Project-authored native Altium library; based on identified manufacturer part and pinout, not vendor-issued CAD
+PARAM|RX2|Comment|E3Z-T61-D 2M
+WIRE|1|14400000|49500000
+WIRE|2|10500000|49500000
+NET|TX_12V|10500000|49500000
+WIRE|1|14400000|45500000
+WIRE|2|10500000|45500000
+NET|TX_0V|10500000|45500000
+WIRE|1|55400000|49500000
+WIRE|2|50000000|49500000
+NET|12V_SENSOR|50000000|49500000
+WIRE|1|55400000|45500000
+WIRE|2|50000000|45500000
+NET|GND|50000000|45500000
+WIRE|1|66600000|45500000
+WIRE|2|69000000|45500000
+NET|BEAM2_SIG|69000000|45500000
+COMP|TX3|E3Z-T61-L 2M|OMRON_E3Z_T61_L_2M
+PARAM|TX3|Manufacturer|Omron
+PARAM|TX3|Manufacturer Part Number|E3Z-T61-L 2M
+PARAM|TX3|Package|EXTERNAL CABLED HEAD
+PARAM|TX3|Populate|Yes
+PARAM|TX3|Intended footprint|NONE - external wired device
+PARAM|TX3|CAD status|Native reusable part-specific symbol. External cabled assembly: no PCB pads. Manufacturer STEP blocked by HTTP 403.
+PIN|TX3|BN|+V|14400000|36000000
+PIN|TX3|BU|0V|14400000|32000000
+PARAM|TX3|Order as pair|E3Z-T61 2M
+PARAM|TX3|Body dimensions mm|10.8 W x 31 H x 20 D
+PARAM|TX3|Mounting|Two M3 holes at 25.4 mm centres; optical face toward opposite upright
+PARAM|TX3|Cable|Integral 2 m cable; BN brown +V / BU blue 0V / receiver BK black OUT
+PARAM|TX3|Supply|12-24 VDC nominal; use regulated 12 V
+PARAM|TX3|Datasheet|https://industrial.omron.eu/en/products/E3Z-T61-2M
+PARAM|TX3|3D download|https://download.ia.omron.com/download/zip/ST/OEE/E3Z_T61/
+PARAM|TX3|BOM note|Buy one E3Z-T61 2M pair per TX/RX pair, not two pairs
+PARAM|TX3|Symbol representation|Complete powered photoelectric head; optical glyph is functional, not a bare discrete diode
+PARAM|TX3|Symbol provenance|Project-authored native Altium library; based on identified manufacturer part and pinout, not vendor-issued CAD
+PARAM|TX3|Comment|E3Z-T61-L 2M
+COMP|RX3|E3Z-T61-D 2M|OMRON_E3Z_T61_D_2M
+PARAM|RX3|Manufacturer|Omron
+PARAM|RX3|Manufacturer Part Number|E3Z-T61-D 2M
+PARAM|RX3|Package|EXTERNAL CABLED HEAD
+PARAM|RX3|Populate|Yes
+PARAM|RX3|Intended footprint|NONE - external wired device
+PARAM|RX3|CAD status|Native reusable part-specific symbol. External cabled assembly: no PCB pads. Manufacturer STEP blocked by HTTP 403.
+PIN|RX3|BN|+V|55400000|36000000
+PIN|RX3|BU|0V|55400000|32000000
+PIN|RX3|BK|OUT|66600000|32000000
+PARAM|RX3|Order as pair|E3Z-T61 2M
+PARAM|RX3|Body dimensions mm|10.8 W x 31 H x 20 D
+PARAM|RX3|Mounting|Two M3 holes at 25.4 mm centres; optical face toward opposite upright
+PARAM|RX3|Cable|Integral 2 m cable; BN brown +V / BU blue 0V / receiver BK black OUT
+PARAM|RX3|Supply|12-24 VDC nominal; use regulated 12 V
+PARAM|RX3|Datasheet|https://industrial.omron.eu/en/products/E3Z-T61-2M
+PARAM|RX3|3D download|https://download.ia.omron.com/download/zip/ST/OEE/E3Z_T61/
+PARAM|RX3|BOM note|Buy one E3Z-T61 2M pair per TX/RX pair, not two pairs
+PARAM|RX3|Symbol representation|Complete powered photoelectric head; optical glyph is functional, not a bare discrete diode
+PARAM|RX3|Symbol provenance|Project-authored native Altium library; based on identified manufacturer part and pinout, not vendor-issued CAD
+PARAM|RX3|Comment|E3Z-T61-D 2M
+WIRE|1|14400000|36000000
+WIRE|2|10500000|36000000
+NET|TX_12V|10500000|36000000
+WIRE|1|14400000|32000000
+WIRE|2|10500000|32000000
+NET|TX_0V|10500000|32000000
+WIRE|1|55400000|36000000
+WIRE|2|50000000|36000000
+NET|12V_SENSOR|50000000|36000000
+WIRE|1|55400000|32000000
+WIRE|2|50000000|32000000
+NET|GND|50000000|32000000
+WIRE|1|66600000|32000000
+WIRE|2|69000000|32000000
+NET|BEAM3_SIG|69000000|32000000
+COMP|TX4|E3Z-T61-L 2M|OMRON_E3Z_T61_L_2M
+PARAM|TX4|Manufacturer|Omron
+PARAM|TX4|Manufacturer Part Number|E3Z-T61-L 2M
+PARAM|TX4|Package|EXTERNAL CABLED HEAD
+PARAM|TX4|Populate|Optional channel 4
+PARAM|TX4|Intended footprint|NONE - external wired device
+PARAM|TX4|CAD status|Native reusable part-specific symbol. External cabled assembly: no PCB pads. Manufacturer STEP blocked by HTTP 403.
+PIN|TX4|BN|+V|14400000|22500000
+PIN|TX4|BU|0V|14400000|18500000
+PARAM|TX4|Order as pair|E3Z-T61 2M
+PARAM|TX4|Body dimensions mm|10.8 W x 31 H x 20 D
+PARAM|TX4|Mounting|Two M3 holes at 25.4 mm centres; optical face toward opposite upright
+PARAM|TX4|Cable|Integral 2 m cable; BN brown +V / BU blue 0V / receiver BK black OUT
+PARAM|TX4|Supply|12-24 VDC nominal; use regulated 12 V
+PARAM|TX4|Datasheet|https://industrial.omron.eu/en/products/E3Z-T61-2M
+PARAM|TX4|3D download|https://download.ia.omron.com/download/zip/ST/OEE/E3Z_T61/
+PARAM|TX4|BOM note|Buy one E3Z-T61 2M pair per TX/RX pair, not two pairs
+PARAM|TX4|Symbol representation|Complete powered photoelectric head; optical glyph is functional, not a bare discrete diode
+PARAM|TX4|Symbol provenance|Project-authored native Altium library; based on identified manufacturer part and pinout, not vendor-issued CAD
+PARAM|TX4|Comment|E3Z-T61-L 2M
+COMP|RX4|E3Z-T61-D 2M|OMRON_E3Z_T61_D_2M
+PARAM|RX4|Manufacturer|Omron
+PARAM|RX4|Manufacturer Part Number|E3Z-T61-D 2M
+PARAM|RX4|Package|EXTERNAL CABLED HEAD
+PARAM|RX4|Populate|Optional channel 4
+PARAM|RX4|Intended footprint|NONE - external wired device
+PARAM|RX4|CAD status|Native reusable part-specific symbol. External cabled assembly: no PCB pads. Manufacturer STEP blocked by HTTP 403.
+PIN|RX4|BN|+V|55400000|22500000
+PIN|RX4|BU|0V|55400000|18500000
+PIN|RX4|BK|OUT|66600000|18500000
+PARAM|RX4|Order as pair|E3Z-T61 2M
+PARAM|RX4|Body dimensions mm|10.8 W x 31 H x 20 D
+PARAM|RX4|Mounting|Two M3 holes at 25.4 mm centres; optical face toward opposite upright
+PARAM|RX4|Cable|Integral 2 m cable; BN brown +V / BU blue 0V / receiver BK black OUT
+PARAM|RX4|Supply|12-24 VDC nominal; use regulated 12 V
+PARAM|RX4|Datasheet|https://industrial.omron.eu/en/products/E3Z-T61-2M
+PARAM|RX4|3D download|https://download.ia.omron.com/download/zip/ST/OEE/E3Z_T61/
+PARAM|RX4|BOM note|Buy one E3Z-T61 2M pair per TX/RX pair, not two pairs
+PARAM|RX4|Symbol representation|Complete powered photoelectric head; optical glyph is functional, not a bare discrete diode
+PARAM|RX4|Symbol provenance|Project-authored native Altium library; based on identified manufacturer part and pinout, not vendor-issued CAD
+PARAM|RX4|Comment|E3Z-T61-D 2M
+WIRE|1|14400000|22500000
+WIRE|2|10500000|22500000
+NET|TX_12V|10500000|22500000
+WIRE|1|14400000|18500000
+WIRE|2|10500000|18500000
+NET|TX_0V|10500000|18500000
+WIRE|1|55400000|22500000
+WIRE|2|50000000|22500000
+NET|12V_SENSOR|50000000|22500000
+WIRE|1|55400000|18500000
+WIRE|2|50000000|18500000
+NET|GND|50000000|18500000
+WIRE|1|66600000|18500000
+WIRE|2|69000000|18500000
+NET|BEAM4_SIG|69000000|18500000
+WIRE|1|90500000|65000000
+WIRE|2|92500000|65000000
+NET|12V_SENSOR|90500000|65000000
+WIRE|1|90500000|60500000
+WIRE|2|92500000|60500000
+NET|GND|90500000|60500000
+WIRE|1|90500000|56000000
+WIRE|2|92500000|56000000
+NET|BEAM1_SIG|90500000|56000000
+WIRE|1|90500000|51500000
+WIRE|2|92500000|51500000
+NET|BEAM2_SIG|90500000|51500000
+WIRE|1|90500000|47000000
+WIRE|2|92500000|47000000
+NET|BEAM3_SIG|90500000|47000000
+WIRE|1|90500000|42500000
+WIRE|2|92500000|42500000
+NET|BEAM4_SIG|90500000|42500000

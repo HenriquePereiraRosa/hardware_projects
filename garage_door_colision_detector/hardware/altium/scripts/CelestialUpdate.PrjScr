@@ -1,0 +1,6 @@
+[Design]
+Version=1.0
+[Document1]
+DocumentPath=CelestialUpdate.pas
+[Generic_ScriptingSystem]
+StartProcName=CelestialUpdate.pas>InspectCelestial

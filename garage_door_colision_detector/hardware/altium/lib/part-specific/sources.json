@@ -1,0 +1,20 @@
+[
+  {
+    "file": "oki78sr.kicad_mod",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-footprints/master/Converter_DCDC.pretty/Converter_DCDC_Murata_OKI-78SR_Vertical.kicad_mod",
+    "sha256": "9b9ea6b14810cfca91c86ba0c045e6d2e9144f287d0c3e026b07733abaa6d6f0",
+    "bytes": 3349
+  },
+  {
+    "file": "oki78sr.step",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Converter_DCDC.3dshapes/Converter_DCDC_muRata_OKI-78SR_Vertical.step",
+    "sha256": "4445049a7b608751b604d0729cea6b1c02ab52aa8bbc25305901069277f04bfd",
+    "bytes": 820136
+  },
+  {
+    "file": "LICENSE.md",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-footprints/master/LICENSE.md",
+    "sha256": "285b027a721577d0bc0198f36e948c6c282ddaa4b58fef8ed826749576eb0aef",
+    "bytes": 2105
+  }
+]
