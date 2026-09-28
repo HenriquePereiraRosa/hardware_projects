@@ -1,0 +1,682 @@
+[
+  {
+    "source": "hardware\\altium\\00_Mounting_Overview.SchDoc",
+    "target": "hardware\\altium\\sch\\00_Mounting_Overview.SchDoc",
+    "sha256": "93EDE26A65E9DAEDC788E78897AE9DD143DEA1A20DA9794D25CBB26CD9ED9050"
+  },
+  {
+    "source": "hardware\\altium\\01_Power_Control.SchDoc",
+    "target": "hardware\\altium\\sch\\01_Power_Control.SchDoc",
+    "sha256": "DA5E0FC8986CEEAB78F01134793B9AAE749C4C6D8D7CED8B35174D5AF365E1B8"
+  },
+  {
+    "source": "hardware\\altium\\02_Beam_Inputs.SchDoc",
+    "target": "hardware\\altium\\sch\\02_Beam_Inputs.SchDoc",
+    "sha256": "C28AE1C5073CDFFEEA0EA11982711139A64F756C9AABEC62476990E4149750E7"
+  },
+  {
+    "source": "hardware\\altium\\03_UI_Outputs.SchDoc",
+    "target": "hardware\\altium\\sch\\03_UI_Outputs.SchDoc",
+    "sha256": "A6D15A45686B95215B80F65B36021626B95092AAA736EB1F78015E7A79422614"
+  },
+  {
+    "source": "hardware\\altium\\04_Optical_Heads.SchDoc",
+    "target": "hardware\\altium\\sch\\04_Optical_Heads.SchDoc",
+    "sha256": "4D3CC40586B5D17211898BE35E7BEA8EDDD0CAAEBC2B7FC7057F3B7E630063B6"
+  },
+  {
+    "source": "hardware\\altium\\05_Installation.SchDoc",
+    "target": "hardware\\altium\\sch\\05_Installation.SchDoc",
+    "sha256": "63EC28E4FEED606D566DB127FEAE29A1BC9E31D39115F5CD587D0625F7BF4AD1"
+  },
+  {
+    "source": "hardware\\altium\\GarageBeamSafety.PcbDoc",
+    "target": "hardware\\altium\\pcb\\GarageBeamSafety.PcbDoc",
+    "sha256": "3E4B045657BD96E2CD2B4BFD35BD81E8170BF3F239AF64B073E62046BB45E010"
+  },
+  {
+    "source": "hardware\\altium\\GarageBeamSafety.BomDoc",
+    "target": "hardware\\altium\\bom\\GarageBeamSafety.BomDoc",
+    "sha256": "3DF04F6C546F2908CE96F04B9D05E26732B782C6A35A68C66F9503E857FCB24F"
+  },
+  {
+    "source": "hardware\\altium\\GarageBeamSafety.SchDoc",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\unused-documents\\GarageBeamSafety.SchDoc",
+    "sha256": "8CBA5B7716AD9CA7239CEEBDD1CD527042CA74D435C9D3E8ADE856B9910A0ED8"
+  },
+  {
+    "source": "hardware\\altium\\GarageBeamSafety.PrjPcbStructure",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\cache\\GarageBeamSafety.PrjPcbStructure",
+    "sha256": "C070957290F8A78F510F583A97E65468F4769AE87A1E80E850CC3975834A2612"
+  },
+  {
+    "source": "hardware\\altium\\README.md",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\guides\\altium-README.md",
+    "sha256": "005615E7F5124F4AE5E0C393EF317395F20FF00E1D0A9CA802F244555BD5965B"
+  },
+  {
+    "source": "README.md",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\guides\\root-README.md",
+    "sha256": "7CD1C5D209B657C90523B35F59CED202AE64F34BD26F61F19289C0A1FDFFC665"
+  },
+  {
+    "source": "hardware\\altium\\ALTIUM_QUICK_REFERENCE.md",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\guides\\ALTIUM_QUICK_REFERENCE.md",
+    "sha256": "0209498750509030B1C04D5282F03C63B76DCB60314B05215E17CD24FEFDA28D"
+  },
+  {
+    "source": "hardware\\altium\\ALTIUM_QUICK_REFERENCE.html",
+    "target": "docs\\ALTIUM_QUICK_REFERENCE.html",
+    "sha256": "798F26BDA7DECD7CB08C0637F8750344C151314832157A9AB65F85B63BCCBB64"
+  },
+  {
+    "source": "hardware\\altium\\SCHEMATIC_REPAIR_STATUS.html",
+    "target": "docs\\SCHEMATIC_REPAIR_STATUS.html",
+    "sha256": "6A3470DFDD7F94B310E5F14702C92AA05814BD0DBDB9BAE5D6E19ED99AE78A6E"
+  },
+  {
+    "source": "hardware\\altium\\00_Mounting_Overview.labels.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\00_Mounting_Overview.labels.txt",
+    "sha256": "A932EBB13785A5DF432CE1F85CD4C87F058C07DC583300E08D3D0D9EF63AC30A"
+  },
+  {
+    "source": "hardware\\altium\\00_Mounting_Overview.SchDoc.audit.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\00_Mounting_Overview.SchDoc.audit.txt",
+    "sha256": "216D10BDC0BC71EB496C3D6054403421D6E28888BC15EB505E65FB37A015854D"
+  },
+  {
+    "source": "hardware\\altium\\00_Mounting_Overview.SchDoc.hierarchy.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\00_Mounting_Overview.SchDoc.hierarchy.txt",
+    "sha256": "3800E98905C13F932DFB7EA55B67AE443757A927919ED998EA270A2C93B25A9A"
+  },
+  {
+    "source": "hardware\\altium\\01_Power_Control.SchDoc.audit.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\01_Power_Control.SchDoc.audit.txt",
+    "sha256": "2927785FADA77784E4DFB8E9700260681E188B29423394814DDC2049E67E5B5B"
+  },
+  {
+    "source": "hardware\\altium\\01_Power_Control.SchDoc.hierarchy.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\01_Power_Control.SchDoc.hierarchy.txt",
+    "sha256": "2D2C0F8A84886E78B21F2E80BF07B44B96B00A96BD7F068DDC0854CFEFB1D1DE"
+  },
+  {
+    "source": "hardware\\altium\\02_Beam_Inputs.SchDoc.audit.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\02_Beam_Inputs.SchDoc.audit.txt",
+    "sha256": "934DD811450AE70751D4BFE02C6A6A20374DCCD934DB2994B6135BC47D245D97"
+  },
+  {
+    "source": "hardware\\altium\\02_Beam_Inputs.SchDoc.hierarchy.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\02_Beam_Inputs.SchDoc.hierarchy.txt",
+    "sha256": "4886F367E632CD3B7B036717E1859C2F9C8C5CA91E1E5F087710FB10DCF5B546"
+  },
+  {
+    "source": "hardware\\altium\\03_UI_Outputs.SchDoc.audit.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\03_UI_Outputs.SchDoc.audit.txt",
+    "sha256": "2A65123E4F719C316F5438DC0D46410F19B774937152C2D74205621D14117A7C"
+  },
+  {
+    "source": "hardware\\altium\\03_UI_Outputs.SchDoc.hierarchy.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\03_UI_Outputs.SchDoc.hierarchy.txt",
+    "sha256": "A6337BF013BC2E3C2E37F9E37AD171CD7F8A183D468081D5E61AD31E691B2980"
+  },
+  {
+    "source": "hardware\\altium\\04_Optical_Heads.SchDoc.audit.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\04_Optical_Heads.SchDoc.audit.txt",
+    "sha256": "83126F86B924AEE9AE9A483F170BB26AA0F3C67289205E5742D6CD814BD2CEA0"
+  },
+  {
+    "source": "hardware\\altium\\04_Optical_Heads.SchDoc.hierarchy.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\04_Optical_Heads.SchDoc.hierarchy.txt",
+    "sha256": "49F44F34E6D7D74916C03E385B04A24CBDDA3DD85F1506E14D4D0E9E6DB99F8C"
+  },
+  {
+    "source": "hardware\\altium\\05_Installation.SchDoc.audit.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\05_Installation.SchDoc.audit.txt",
+    "sha256": "96598912ABF2D84B327688C0497A03B6C5766EFB7ABE5A06BC0EABE7D3A6152F"
+  },
+  {
+    "source": "hardware\\altium\\05_Installation.SchDoc.hierarchy.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\05_Installation.SchDoc.hierarchy.txt",
+    "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+  },
+  {
+    "source": "hardware\\altium\\CelestialInspection.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\CelestialInspection.txt",
+    "sha256": "0D644F8CC7933D4CB4A488A45E17EFC5AA73910EAFCBA7C0288584C4032099F0"
+  },
+  {
+    "source": "hardware\\altium\\CelestialNative.before.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\CelestialNative.before.txt",
+    "sha256": "B3B5C329EDFC29D5FB819EF5D8159331AB8DDDABB8E83C26791CB613EBE4D1A9"
+  },
+  {
+    "source": "hardware\\altium\\CelestialPCBPinNets.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\CelestialPCBPinNets.txt",
+    "sha256": "B3B5C329EDFC29D5FB819EF5D8159331AB8DDDABB8E83C26791CB613EBE4D1A9"
+  },
+  {
+    "source": "hardware\\altium\\CelestialRegistered.after.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\CelestialRegistered.after.txt",
+    "sha256": "B3B5C329EDFC29D5FB819EF5D8159331AB8DDDABB8E83C26791CB613EBE4D1A9"
+  },
+  {
+    "source": "hardware\\altium\\CelestialRegistered.audit.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\CelestialRegistered.audit.txt",
+    "sha256": "A2C2ACC7E5B31B1E16FE4D2A6A405C80545664A23EF3D53A67C083A583B296F6"
+  },
+  {
+    "source": "hardware\\altium\\CelestialRegistered.before.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\CelestialRegistered.before.txt",
+    "sha256": "B3B5C329EDFC29D5FB819EF5D8159331AB8DDDABB8E83C26791CB613EBE4D1A9"
+  },
+  {
+    "source": "hardware\\altium\\CelestialUpdate.audit.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\CelestialUpdate.audit.txt",
+    "sha256": "43AA4BD38DFEA57ED990F63D1181AE54625C0613A3CE3D550026A710129D3052"
+  },
+  {
+    "source": "hardware\\altium\\CurrentPCBNative.audit.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\CurrentPCBNative.audit.txt",
+    "sha256": "B7B6A1D8340A603459BF7DB74F0CF47ABFB56EAACE096DAB9341F6459D8495C7"
+  },
+  {
+    "source": "hardware\\altium\\FinishSync.inventory.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\FinishSync.inventory.txt",
+    "sha256": "83B4F5C8EE53308AD624A18F2C0BBFFD11DBD51E788C9F3C246ED91B8F87AFC7"
+  },
+  {
+    "source": "hardware\\altium\\GarageBeamSafety.pdf",
+    "target": "output\\altium-reports\\before-folder-reorganization\\GarageBeamSafety.pdf",
+    "sha256": "32B6C30E659FEEBCC774D38B5567B1A544071266A26E01A92D1150848B3A482F"
+  },
+  {
+    "source": "hardware\\altium\\NativeBuild.log",
+    "target": "output\\altium-reports\\before-folder-reorganization\\NativeBuild.log",
+    "sha256": "DBE26ABF1499795CDA2DF40AE0DC6312D7262E42F5BF598061D2062C57FB7A53"
+  },
+  {
+    "source": "hardware\\altium\\NativePCBAudit.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\NativePCBAudit.txt",
+    "sha256": "1CBAD038C5CFF955FF4BACC8612883D2388EE53FAAD8ADDD2EB91BE403EE2AEF"
+  },
+  {
+    "source": "hardware\\altium\\NativePinNets.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\NativePinNets.txt",
+    "sha256": "69318DC56F67C7D9AA1B46EAA8B4C4E1A1429FEA30B0CB68D147F8D5766A4BC3"
+  },
+  {
+    "source": "hardware\\altium\\NativeSchematicAudit.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\NativeSchematicAudit.txt",
+    "sha256": "57A512503C74319CCBAA03B4B238A23A3CB5C0099833E2D014092BED2F8C321F"
+  },
+  {
+    "source": "hardware\\altium\\OpticalHardwarePCB.audit.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\OpticalHardwarePCB.audit.txt",
+    "sha256": "BE45A5FD240DBD2678D3CB5FA188A3BB421142675B23C9D1216E0C7857443DA7"
+  },
+  {
+    "source": "hardware\\altium\\PartSpecificComponents.contents.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\PartSpecificComponents.contents.txt",
+    "sha256": "CD15A1FF6F153E2173441B47358268506B2BDFA505F96C91DAEA648BFEEC1F1B"
+  },
+  {
+    "source": "hardware\\altium\\PCBRepairV3.log",
+    "target": "output\\altium-reports\\before-folder-reorganization\\PCBRepairV3.log",
+    "sha256": "2459E58E4248FDC1CBFBFDE3AF5BE9B1895F6645B61D53FEE43569D72A50DB22"
+  },
+  {
+    "source": "hardware\\altium\\PinRepair.audit.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\PinRepair.audit.txt",
+    "sha256": "7A247BC4320BADC66385570CDFFBC87E188B58378BC7172AEA1464BA3ED0D1BE"
+  },
+  {
+    "source": "hardware\\altium\\PowerConnections.audit.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\PowerConnections.audit.txt",
+    "sha256": "FA04984208CB58066EC1E1782A059365CFA88B1687B798C6D5F54126CE8C8992"
+  },
+  {
+    "source": "hardware\\altium\\ProfessionalAudit.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\ProfessionalAudit.txt",
+    "sha256": "85703959BEAE14A83C86E545C0E40189F24E9A5C81B25D2F310485A767DD9AE0"
+  },
+  {
+    "source": "hardware\\altium\\ProfessionalBuild.log",
+    "target": "output\\altium-reports\\before-folder-reorganization\\ProfessionalBuild.log",
+    "sha256": "BD8ACE13EBDA9ED42989F23734BCB0E391F4EA395EE543A4A2E8E6375CB5EAB7"
+  },
+  {
+    "source": "hardware\\altium\\ProfessionalOverviewCapture.png",
+    "target": "output\\altium-reports\\before-folder-reorganization\\ProfessionalOverviewCapture.png",
+    "sha256": "618BBEE89C3E73BC60D6953B5F3F8D4B8DDFE1DD5D0C282150D3B2A1AB99C923"
+  },
+  {
+    "source": "hardware\\altium\\ReadableBuild.log",
+    "target": "output\\altium-reports\\before-folder-reorganization\\ReadableBuild.log",
+    "sha256": "C2D6FAEAA14CE0EAD9632A0ABE0D9E2BF39BE6D68A692FCC577C2C71CD26F653"
+  },
+  {
+    "source": "hardware\\altium\\ReadableSchematicAudit.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\ReadableSchematicAudit.txt",
+    "sha256": "C1FA5A1A52DC5A16A1B8182682436900B6E3398C5FE0C595434C25F9744307B3"
+  },
+  {
+    "source": "hardware\\altium\\RepairParts.inventory.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\RepairParts.inventory.txt",
+    "sha256": "0CF27354654D51330FBA7616B71BC7B11B8C286D91667E4BE9643DE500C476EB"
+  },
+  {
+    "source": "hardware\\altium\\RepositorySync.audit.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\RepositorySync.audit.txt",
+    "sha256": "5AEF413915A2E423871D8032B50F26453F76B5307CC545B3DE6ACDB3A870B21B"
+  },
+  {
+    "source": "hardware\\altium\\RepositorySync.before.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\RepositorySync.before.txt",
+    "sha256": "FD4B96D0D27D898E2A1A78D1A9C44D6B8ADF3AA440759D7D5CDAA9FB5C73F5CE"
+  },
+  {
+    "source": "hardware\\altium\\SchematicRepair.log",
+    "target": "output\\altium-reports\\before-folder-reorganization\\SchematicRepair.log",
+    "sha256": "A0B2E40C8756C32075DFE64938983EE4AB9D7D18A4BAF1BBFB9918476A59A5AE"
+  },
+  {
+    "source": "hardware\\altium\\SensorNativeUpdate.log",
+    "target": "output\\altium-reports\\before-folder-reorganization\\SensorNativeUpdate.log",
+    "sha256": "3E9FE320A57AA2390D316A4643D902C5CA4C5746AAF597739F38D187E716FDE8"
+  },
+  {
+    "source": "hardware\\altium\\TemplateComponentInspection.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\TemplateComponentInspection.txt",
+    "sha256": "8AC6979D21B5AAD7AD4513F5501E2631341519FD93A97C18DCE056FBB9B7A559"
+  },
+  {
+    "source": "hardware\\altium\\TemplateSchematicInspection.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\TemplateSchematicInspection.txt",
+    "sha256": "BE2AB8E96ABD883A9768BC41639F6A6130DF0B6D962745C83228E10B9B6AA4C8"
+  },
+  {
+    "source": "hardware\\altium\\TemplateSeedPinInspection.txt",
+    "target": "output\\altium-reports\\before-folder-reorganization\\TemplateSeedPinInspection.txt",
+    "sha256": "8AD9316FA82335CF38800E56748D7AC5D40C21DBB1423A4159F754AE13B60238"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\assemble_celestial.cjs",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\assemble_celestial.cjs",
+    "sha256": "45A24F131A3D73D2E9FE3EAA80F212F23DF6F8CA2B4C90DD41CE49811CFF2CAB"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\assemble_hierarchy.cjs",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\assemble_hierarchy.cjs",
+    "sha256": "188A6247424348F06BB58121C9C0FFA901D8D6228D601BC5371FE27DC6D93912"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\assemble_part_specific.cjs",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\assemble_part_specific.cjs",
+    "sha256": "486A1C6D871E0BF2F9B6295AB3272DDD41B0A51411DC94B5B6728234D4E9D0C8"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\AssembleLibraryUpdate.cjs",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\AssembleLibraryUpdate.cjs",
+    "sha256": "64658857CB9639BFF85E1F099AA595CA15619AC61C6FDB5C89A5FE560EFD2019"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\AuditPowerConnections.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\AuditPowerConnections.pas",
+    "sha256": "4AF8564B35D886FD6E5C03F6A9B3EF807175D57F76801F407D4FE4355EDB6BD4"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\AuditPowerConnections.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\AuditPowerConnections.PrjScr",
+    "sha256": "54266344D8C240F49C0E79B84B783C97272E21213A3A97F2BE37614AE07622F8"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\AuditRepairParts.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\AuditRepairParts.pas",
+    "sha256": "12C24C0887A6DDA9C27AE576952229AE57A7CC2B0D001C04D804D60180B37EFF"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\AuditRepairParts.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\AuditRepairParts.PrjScr",
+    "sha256": "FC95AEE75BEDC966595EA0BCA66FFB2C4F77AAD15107B1AF109C714D7FFECFD9"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\build_package_procedures.cjs",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\build_package_procedures.cjs",
+    "sha256": "5872389E57025EA5B2F12F9D8B59F8E7FD3F72DF56C1C2F4F563B03A13279B63"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\BuildNativeGarageBeamSafety.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\BuildNativeGarageBeamSafety.pas",
+    "sha256": "616A88CE17DE3083AC89FC3A05145D3F44A3ACDB3CB97A401D9C84E7408298CB"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\BuildReadableSchematics.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\BuildReadableSchematics.pas",
+    "sha256": "0F5F7AF7775B879F0524D84B6C8A21FA380B9A743C54688A73B7F34B65558CD2"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\CelestialApply.inc.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\CelestialApply.inc.pas",
+    "sha256": "E9A23F7800DA22A7C4E3183E5FE7BF96BAB621B4257D1FFBA071E7A2D3A230DB"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\CelestialApply.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\CelestialApply.pas",
+    "sha256": "92A551A519D165EF1D0CF656C44136D53B634BEDBD8F4344467064CCB4DC17A9"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\CelestialApply.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\CelestialApply.PrjScr",
+    "sha256": "9D4D3CF82CD1D553B69E5D6D8ABB19DEADB497A3B1D443FC4B5264E7135B5139"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\CelestialNative.inc.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\CelestialNative.inc.pas",
+    "sha256": "A4A55725B74127BB452BA99F3C2243A4745E0F17901CD2446CF2D4E4652C2DBA"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\CelestialNative.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\CelestialNative.pas",
+    "sha256": "1F4B8AE84FC43DFBB183E3B9870FE6C5DE2DC838F28ADF309B113336AAF12398"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\CelestialNative.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\CelestialNative.PrjScr",
+    "sha256": "48F7510D9E7F8B45CD377CCBD7AC608127B6EF4DCF60DBA51E78406D7BFCA032"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\CelestialRegister.inc.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\CelestialRegister.inc.pas",
+    "sha256": "44AEC79B045D5FE7BD218E10A34A0D383AE1FD8046D058A8B0835F19F1DF4B9C"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\CelestialRegister.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\CelestialRegister.pas",
+    "sha256": "8A5E35432B30538FD1F2036F7498CFFE76E9D3F3ABA114B74D31FA8852BE3295"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\CelestialRegister.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\CelestialRegister.PrjScr",
+    "sha256": "B3903E637EB8A46E0F13739C645A3EBEAA3039A28EE4D788756C9D49E14EAECA"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\CelestialSafeTransfer.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\CelestialSafeTransfer.pas",
+    "sha256": "92A551A519D165EF1D0CF656C44136D53B634BEDBD8F4344467064CCB4DC17A9"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\CelestialSafeTransfer.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\CelestialSafeTransfer.PrjScr",
+    "sha256": "67E0A63693B6CF8EA359178DEA583D9FA0BE1C81FA16207AA7710553ACCBA69E"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\CelestialUpdate.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\CelestialUpdate.pas",
+    "sha256": "9ED8C611A09701444F3C6B0F03131731376AF75CDC15FBC53D73AB7F19EE4C82"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\CelestialUpdate.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\CelestialUpdate.PrjScr",
+    "sha256": "698B4644E2CEFCB88DE0B90A77ED6A54CF0D60C6E321B2ED854F51D6A0BC2ECF"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\check_hierarchy.cjs",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\check_hierarchy.cjs",
+    "sha256": "2725E3BA19F1C71BF741A8C3426F482D7C19CB1631C4C233350EB786096A348D"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\check_optical_hardware.cjs",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\check_optical_hardware.cjs",
+    "sha256": "291FC0C6A3212B2D7E313BEB2CBB26AE2F14C5C7CD85062D81E8CD8F2963F861"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\check_power_selection.cjs",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\check_power_selection.cjs",
+    "sha256": "9E1731C3C77EBEDC9120A83FD7B779141FFAE4259BFD8B6DE2E33BDFD584544A"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\check_schematic_audit.cjs",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\check_schematic_audit.cjs",
+    "sha256": "76D0E60D22C96114EA3F8D471AD559C34165DAAA896F53D7DDAE40FC78CB7B9C"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\export_native_pin_nets.cjs",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\export_native_pin_nets.cjs",
+    "sha256": "A3DBAE9FBFA6846EF4F10EB62A09AD95D87C8E85B823DD559BEC56F4CA4E9864"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\fetch_component_assets.cjs",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\fetch_component_assets.cjs",
+    "sha256": "57BB2BF660B2A4193CD1CF7C5B919BB1285026ADCCF2C138D5A348E6AAA650F3"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\FetchVerifiedPackages.ps1",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\FetchVerifiedPackages.ps1",
+    "sha256": "4B217EEF2246381D38E9C11C054D0158E2C077841EFDE9F62BE2D6D9F1A4AD1D"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\FinishSync.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\FinishSync.pas",
+    "sha256": "7D7745DFB7EE0ECB1BF0C80AF64E9F03B593038D808CE45C31CBB561E67A1C65"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\FinishSync.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\FinishSync.PrjScr",
+    "sha256": "8EA12D68562E1759BFD31918BEB77CC2893C13C92736B02BAC0B5078A965DBFA"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\GenerateGarageBeamSafety.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\GenerateGarageBeamSafety.pas",
+    "sha256": "19674A5BA93446B8D34E1A83BD37EAC4B340084D9DBB33690D87D06068ADB4E6"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\GenerateGarageBeamSafety.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\GenerateGarageBeamSafety.PrjScr",
+    "sha256": "EE30046FC9CB28BE9041818287432B6FF0969494386A9C8E04729CFB1B82EDA2"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\GenerateGarageBeamSafetyPCB.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\GenerateGarageBeamSafetyPCB.pas",
+    "sha256": "EA0E7B7B7F8942236B2FAECAE22ACD7E9C0AD8553A5411F7164A1BCCBF7C6253"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\HierarchyUpdate.inc.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\HierarchyUpdate.inc.pas",
+    "sha256": "07C7B27B751C14E42ABE9F5572421227A8095997CE0688FFF12C348ADAD89540"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\HierarchyUpdate.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\HierarchyUpdate.pas",
+    "sha256": "8955A651DB09C9E32CB54F150BEE3187EC1CE6AD1362EA9B84AABF6DE02B88EE"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\HierarchyUpdate.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\HierarchyUpdate.PrjScr",
+    "sha256": "DE980C2C18E2C46AF7C7ACAE7EB6BFB1BC244D9518B75C7073501E98553E5EBB"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\HierarchyUpdateV2.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\HierarchyUpdateV2.pas",
+    "sha256": "14730C4FD25CE22C811426A2B155DB0EC007A919F7375A7CF41018907D530BC8"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\HierarchyUpdateV2.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\HierarchyUpdateV2.PrjScr",
+    "sha256": "790DEAE73E142B144F1AD36B0DB3751D2F783AFFEF20C48ACC08EA2FE160F4E2"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\LibraryBoardOperations.inc.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\LibraryBoardOperations.inc.pas",
+    "sha256": "BD9C3BA7A32AF742A8A365F11D21C45A7542A7579ABD5438A10333274A0B46A6"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\LibraryBoardUpdate.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\LibraryBoardUpdate.pas",
+    "sha256": "ACD0B3E9592940EDE41D94970CACC6629C3F1915A51DAF8185F11F2F82BA10DF"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\LibraryBoardUpdate.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\LibraryBoardUpdate.PrjScr",
+    "sha256": "C90D28317BD75B8D70D0E917CBBFF9D4A510714060DE6C158F7D13901932A217"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\LibraryBoardUpdateV2.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\LibraryBoardUpdateV2.pas",
+    "sha256": "ACD0B3E9592940EDE41D94970CACC6629C3F1915A51DAF8185F11F2F82BA10DF"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\LibraryBoardUpdateV2.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\LibraryBoardUpdateV2.PrjScr",
+    "sha256": "1F581BE9725D4F9C16717796D1E400CF3F8EEB63670A18873863DC23ED26DC49"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\LibraryRepair.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\LibraryRepair.pas",
+    "sha256": "905513870B800AF82EB888AC1A3738E6C6E875F3E68952552145BCEDFAE1143F"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\LibraryRepair.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\LibraryRepair.PrjScr",
+    "sha256": "53D3CF52649324576E2BDB23E46CA7850AB08BB230B9CBCEA7EFAC6911B85525"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\MacroRealUpdate.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\MacroRealUpdate.pas",
+    "sha256": "726E2B3911BBEE46B1AC89E44EAA1899902742465CE9E34049C9DB4105E0CD92"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\MacroRealUpdate.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\MacroRealUpdate.PrjScr",
+    "sha256": "9666343F17500AB6605F9F5C72CEE01223163D7DF0ABDEFCD24CBAC0FC10BAAB"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\MountingPowerNative.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\MountingPowerNative.PrjScr",
+    "sha256": "01EE64C248FBD0464DD7DF9ABBA9F88B5DD57D31412B99F767E3D9F9C6B99BF7"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\MountingPowerUpdate.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\MountingPowerUpdate.pas",
+    "sha256": "217A1A3605DBBFE430CB1FB0C86BE8D20B700244F81B6FC3EFAF02D55B46EA32"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\MountingPowerUpdate.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\MountingPowerUpdate.PrjScr",
+    "sha256": "01EE64C248FBD0464DD7DF9ABBA9F88B5DD57D31412B99F767E3D9F9C6B99BF7"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\PackageProcedures.inc.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\PackageProcedures.inc.pas",
+    "sha256": "3D885901238F21D6956530CAFEA903298831E439E1F4A7591918E98BF471D839"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\PartSpecificSymbols.inc.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\PartSpecificSymbols.inc.pas",
+    "sha256": "167BB3867B5B26FD187EA06B40613A752D557C84546A237CB0E586B27D54690B"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\PartSpecificSymbols.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\PartSpecificSymbols.pas",
+    "sha256": "2AC3D89DB59ECCB0A7D6B4B10C200D80128CAD549ECADBF44AEC1355EE35D0D6"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\PartSpecificSymbols.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\PartSpecificSymbols.PrjScr",
+    "sha256": "ED7DD693E58D857EB8FD918499AA2446BDF68C2738800E46CAD819CF73B38A19"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\PCBModelRefresh.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\PCBModelRefresh.pas",
+    "sha256": "DCD7769B88F287EAF446AC367064F80A239B652C2EEE89646CEDC019A6E80FCA"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\PCBModelRefresh.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\PCBModelRefresh.PrjScr",
+    "sha256": "49719546963052416210191156E6F19B5AF0CCBC11450D58D08C6931C499DAAC"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\PrepareRepositorySync.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\PrepareRepositorySync.pas",
+    "sha256": "5200F8764FAC0305BCACEAFDCA587FB0CE2910A120D8CA049A7230D5AA1EE15C"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\PrepareRepositorySync.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\PrepareRepositorySync.PrjScr",
+    "sha256": "C84D1E04EE46028DB0F9BB15FC58C5919B3A45BB3E5DD9479D55B67FB9B0FAB4"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\ProfessionalRebuild_v2.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\ProfessionalRebuild_v2.pas",
+    "sha256": "5B23888BA077F9AED49B693250120D92793D6FA0B98C796962C4D0A6CCD2D22B"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\ProfessionalRebuild.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\ProfessionalRebuild.pas",
+    "sha256": "3CC81944BB3FC5D9CEF618ABB78E88F6C81B8545FB3A1EB75B18A02CEF925334"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\RebuildRealSchematics.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\RebuildRealSchematics.pas",
+    "sha256": "217A1A3605DBBFE430CB1FB0C86BE8D20B700244F81B6FC3EFAF02D55B46EA32"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\RebuildRealSchematics.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\RebuildRealSchematics.PrjScr",
+    "sha256": "A35F86C58DEE9373AEC01C9031B632A54604E1AA27E9ABB4E7A337946FD51FF5"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\RepairCapacitorConnections.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\RepairCapacitorConnections.pas",
+    "sha256": "50233639FBC82D92F935C4E1838C5E6A36B6B5A475C6258EA5A43C1A5B552B13"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\RepairCapacitorConnections.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\RepairCapacitorConnections.PrjScr",
+    "sha256": "D0A40850929FC3BEA2AEA07B3B35BE55E27F9412CCD4A7C36331E9D1AC72C8ED"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\RepairControllerPCB_v3.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\RepairControllerPCB_v3.pas",
+    "sha256": "C8EFA033F72FD209C88BED5A40C324FF4D952043EAB09A7C2A3114A17FF40D99"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\RepairMissingPins.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\RepairMissingPins.pas",
+    "sha256": "283B9FB57BECEBEE4EF6509DC7E9FCC8938B59CDB72B8A7C9280EF9993F3EB81"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\RepairMissingPins.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\RepairMissingPins.PrjScr",
+    "sha256": "A516E0361833515017662303A12E494271CCDA1B6222479DCEC15F501C231327"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\RgbIndicatorUpdate.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\RgbIndicatorUpdate.pas",
+    "sha256": "C4B3C1F6BFE2691DCA8BB926AF787117B7268E632948FB113920DDD5802D9E79"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\RgbIndicatorUpdate.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\RgbIndicatorUpdate.PrjScr",
+    "sha256": "9AF0A84B29B91619DD42937AA5B42ADB47EBF6E3669C7030E73513DD51A46156"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\SensorFinish.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\SensorFinish.pas",
+    "sha256": "AC59DDCFCD741F96D2B3ED57EA130DC064C97901633010A3B29F69BFA0F8D436"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\SensorFinish.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\SensorFinish.PrjScr",
+    "sha256": "EBBCF3018886E16F010EA288B9C5716B1D45FF34ECDF47C9C56D79C6E7D1A049"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\SensorNativeUpdate.pas",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\SensorNativeUpdate.pas",
+    "sha256": "5BB151533F8505986EC386253E84DBBC3842CB62FAD30CF097726D03EEC75630"
+  },
+  {
+    "source": "hardware\\altium\\scripts\\SensorNativeUpdate.PrjScr",
+    "target": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\legacy-scripts\\SensorNativeUpdate.PrjScr",
+    "sha256": "D08FA98E861028ABB5F90106A6F93A3AB988095147F042819FF7D88E1D3A4BEC"
+  }
+]

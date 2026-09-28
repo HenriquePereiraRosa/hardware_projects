@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Garage Beam Safety - Pin repair</title>
+<style>body{background:#15191f;color:#e4e9f0;font:16px/1.6 Arial,sans-serif;max-width:1050px;margin:40px auto;padding:0 24px}h1,h2{color:#80caff}a{color:#91d5ff}table{border-collapse:collapse;width:100%}td,th{padding:10px;border:1px solid #3d4653;text-align:left}code{color:#b8eccd}.warn{padding:16px;border-left:4px solid #ffc766;background:#252522}</style>
+<h1>Missing PCB pin repair</h1><p>10 September 2026. Repository: <code>C:\dev\projects\h\hardware_projects\garage_door_colision_detector</code>.</p>
+<p>Repair applied using Altium Designer's native scripting API. No schematic pages, symbols, wires or pins were removed. The controller's existing component placement and routing were retained. The 15 missing components were added in a staging grid to the right of the PCB, not presented as a finished layout.</p>
+<h2>Physical library links repaired</h2><table><tr><th>References</th><th>Footprint and electrical mapping</th><th>3D status</th></tr>
+<tr><td>C1 / C5</td><td>Panasonic EEU-FR1E471: D10, pitch 5 mm / EEU-FR1A471: D8, pitch 3.5 mm. Pin 1 positive, 2 negative.</td><td>Celestial dimensional package STEP embedded.</td></tr>
+<tr><td>D1 / D6 / D2,D3,D4,D7</td><td>SMB / SMA / SOD-123. Local copies renumber Celestial cathode pad 1 to circuit pin 2, and anode pad 2 to circuit pin 1. Schematic mapping remains 1:1.</td><td>Celestial package STEP embedded.</td></tr>
+<tr><td>Q2,Q3,Q4</td><td>AO3400A SOT-23: gate 1, source 2, drain 3.</td><td>Nexperia SOT-23 package model, not an AO3400A-branded model. Confirm package tolerances before manufacturing.</td></tr>
+<tr><td>SW1</td><td>Omron B3FS-1000P common B3FS land pattern. Physical terminals 1+2 share logical pad 1; physical 3+4 share logical pad 2. Four copper pads retained.</td><td>No misleading B3FS-1012P body attached: that model is taller. Exact 1000P model still required.</td></tr>
+<tr><td>F1</td><td>Bourns MF-MSMF110/24X-2, 1.1 A hold, 24 V. Style-2 land pattern: two 1.68 x 2.95 mm pads, 3.10 mm inner gap.</td><td>Exact body not yet attached.</td></tr>
+<tr><td>F2</td><td>Littelfuse 0451.500MRL. Two 1.96 x 3.15 mm pads, 2.95 mm inner gap.</td><td>Exact body not yet attached. Maximum body height reserved: 2.94 mm.</td></tr>
+<tr><td>JP1</td><td>Samtec TSW-102-07-G-S, two plated holes, 2.54 mm pitch, 1.02 mm drill, 1.8 mm lands.</td><td>Exact body not yet attached.</td></tr></table>
+<p class="warn">F1's earlier MF-MSMF110-2 selection was rated for 6 V, unsuitable for this 12 V input. The schematic part number is corrected to MF-MSMF110/24X-2. Do not buy the old 6 V part. Final load, thermal derating and fuse/TVS coordination still need design review.</p>
+<h2>External installation hardware - retain in purchasing list</h2>
+<p>The following are installation components, not controller PCB pads. Their existing schematic symbols and wiring remain. Their Altium component <em>type</em> is Graphical to exclude them from PCB synchronization; this does not replace the symbols with drawings. Because this type excludes them from Altium's PCB BOM, purchase them using this separate installation list.</p>
+<table><tr><th>Reference</th><th>Part</th><th>Quantity</th></tr>
+<tr><td>TX1-TX4 and RX1-RX4</td><td>Omron E3Z-T61 2M through-beam pairs: emitter E3Z-T61-L 2M and receiver E3Z-T61-D 2M. Verify whether a seller supplies the complete pair. <a href="https://industrial.omron.eu/en/products/e3z">Manufacturer family</a>.</td><td>One pair per enabled beam, up to four pairs. Do not order eight pairs.</td></tr>
+<tr><td>PS1, PS2</td><td>MEAN WELL GST25E12-P1J regulated 12 V adapters. <a href="https://www.meanwell.com/Upload/PDF/GST25E/GST25E-SPEC.PDF">Manufacturer specification</a>.</td><td>2</td></tr></table>
+<p>Only the receiver/controller board needs an ESP32. The opposite emitters require 12 V distribution, not a second ESP32. The legacy ReflectorCarrier PCB has not been modified by this repair and is not a finished emitter design.</p>
+<h2>Verification and recovery</h2><p>Native repair log: <code>hardware/altium/PinRepair.audit.txt</code>. The script verifies pad counts and net assignments for all 15 added parts and compares every schematic pin's position/orientation before and after editing. Backups: <code>hardware/altium/History/pin-repair-20260910</code>.</p>
+<p>Use the project in <code>hardware_projects</code>, not the old project folder. Saving a schematic alone does not synchronize the PCB. Use <strong>Design &gt; Update PCB Document</strong> on the controller PCB and inspect a fresh ECO.</p>
+<p class="warn">This repair is not a fabrication release. Complete placement, routing, ERC/DRC, remaining exact 3D models and optical acceptance testing before ordering or relying on the detector. Do not rerun RepairMissingPins: its guards intentionally refuse overwriting the repair library or duplicating parts.</p>
+<h2>Sources</h2><ul>
+<li><a href="https://altiumlibrary.com">Celestial Altium Library</a>: source native footprint files retained in <code>hardware/altium/lib/celestial</code>.</li>
+<li><a href="https://bourns.com/docs/product-datasheets/mf-msmf.pdf">Bourns MF-MSMF ratings and style-2 pad drawing</a>.</li>
+<li><a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf">Omron B3FS terminal arrangement and land pattern</a>.</li>
+<li><a href="https://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_451_453_datasheet.pdf.pdf">Littelfuse 451/453 recommended pad layout</a>.</li>
+<li><a href="https://www.samtec.com/products/tsw-102-07-g-s">Samtec TSW-102-07-G-S</a>.</li>
+<li><a href="https://www.altium.com/documentation/altium-designer/pcb/placing-components">Altium component types and synchronization behavior</a>.</li>
+</ul></html>

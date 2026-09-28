@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Garage Beam Safety — Design decisions</title>
+<style>
+:root{color-scheme:dark}body{margin:36px auto;padding:0 24px;max-width:1080px;background:#14181e;color:#e4eaf2;font:16px/1.65 Arial,sans-serif}h1,h2{color:#8ed1ff;line-height:1.25}a{color:#9bd6ff}table{border-collapse:collapse;width:100%;margin:18px 0}th,td{text-align:left;vertical-align:top;border:1px solid #394554;padding:12px}th{background:#222c38}.notice{border-left:4px solid #e9b75c;background:#28251e;padding:14px 18px}.approved{color:#9fe1bb}.pending{color:#ffd187}code{overflow-wrap:anywhere;color:#bcd9f1}small{color:#b5c0ce}@media(max-width:700px){table,tbody,tr,td,th{display:block}th{display:none}td{border-bottom:0}tr{margin-bottom:20px}td:last-child{border-bottom:1px solid #394554}}
+</style>
+</head>
+<body>
+<h1>Design decisions</h1>
+<p>Garage Beam Safety · Recorded 10 September 2026</p>
+<p class="notice"><strong>Approval is not implementation.</strong> This log records the agreed direction and unresolved choices. Creating this document did not modify any schematic, PCB, library or fabrication output. No layout is approved for manufacture.</p>
+<h2>Latest checkpoint: PCB first — supersedes earlier status below</h2>
+<p><strong>D11:</strong> The user moved macro-page consolidation, numbering and hierarchy work later. First group receiver/transmitter components in the single PCB and fix component, footprint, 3D and schematic consistency. Board dimensions, routing and capacitor repair remain deferred.</p>
+<p><strong>Completed configuration cleanup:</strong> Created GarageBeamSafety.DsnWrk for the current repository. The project now references only GarageBeamSafety.PcbDoc. All six schematic documents remain unchanged; all 15 project-document paths exist and document indexes are sequential. Corrected stale deleted-folder references in project print settings.</p>
+<p>The obsolete carrier was moved to <code>hardware/altium/deprecated/2026-09-10-workspace-cleanup/retired/GarageBeamSafety_ReflectorCarrier.PcbDoc</code>; SHA-256 matched the backup. Project configuration backups are in its parent archive. Recovery is possible. The old project directory was already absent when checked; the assistant did not delete it.</p>
+<p class="notice">Physical component grouping, model repair and native synchronization are NOT complete. No current PCB binary or library was modified. X2 has no reported main-window title; desktop-control tools are unavailable in this tool session and no connected document sessions were found. Native PCB work remains blocked until access is restored.</p>
+<h2>Q03 clarification and latest compiler review</h2>
+<p>Three pairs is settled. Q03's remaining issue was cable termination: fixed screw terminals versus pluggable terminals and a mating adapter-jack harness. Recommendation is to reuse the selected 1715734 three-position receiver and 1729128 two-position power-terminal families, without substituting sensors. Exact adapter jack remains undecided. See <a href="ERC_REVIEW.html">connector and compiler review</a>. No new connector or circuit change was applied.</p>
+<p>The user reports the PCB is now open. Direct desktop-control access is still unavailable in this tool session; no connected document session was found. Do not confuse inability to access the UI with the project being closed.</p>
+<h2>D12 — fixed screw terminals approved</h2>
+<p>The user confirmed fixed screw terminals. Reuse the selected 1715734 three-position receiver and 1729128 two-position power-terminal families. No removable plug/socket terminal change is needed. Exact adapter-jack/harness selection is still pending.</p>
+<p>A <a href="RUN_PCB_FIRST_PASS.html">local Altium script and execution guide</a> are prepared to fix the known GPIO34/35 type errors and obtain a fresh inventory. Prepared does not mean executed. This first pass does not add or group transmitter components or replace 3D models.</p>
+<h2>Decision procedure</h2>
+<p>The user has requested questions before assumptions. Before implementing an unresolved design choice, explain its effect, obtain an answer and record it here. Do not silently change parts, dimensions, mounting, pin mappings, quantities or separation details. Preserve existing user edits and schematic detail pages. Record any superseded decision instead of erasing its history.</p>
+<h2>Approved direction</h2>
+<table>
+<thead><tr><th>ID / status</th><th>Decision</th><th>Evidence / implementation status</th></tr></thead>
+<tbody>
+<tr><td>D01<br><span class="approved">Approved</span></td><td>One Altium PCB project and one active PCB document for a fabrication board with separate receiver/controller and transmitter-power sections, separated after fabrication.</td><td>User approved the combined breakaway-board proposal with “ok let proceed”. Not applied. Exact separation method and dimensions remain open.</td></tr>
+<tr><td>D02<br><span class="approved">Approved — revised</span></td><td>Exactly one mounting/macro-view sheet, visibly numbered <strong>1</strong> and consistent with the internal sheet number. Group PCB1 receiver/controller and PCB2 transmitter power, with real Altium Sheet Symbols and Sheet Entries linking their relevant detail sheets. Retain circuit detail pages. Include the two bare-PCB documentation/BOM items.</td><td>User clarified with an Altium hierarchical-sheet screenshot. The duplicate mounting sheet must be consolidated, not left active. Board-group framing may be completed manually later if necessary; correct links and board identity have priority. Native edits not applied.</td></tr>
+<tr><td>D03<br><span class="approved">Approved</span></td><td>Only the receiver/controller section contains an ESP32. The opposite-side industrial emitters need power distribution, not another ESP32.</td><td>Repeated user requests and approved proposal. Legacy opposite-side PCB must not be treated as the final emitter design.</td></tr>
+<tr><td>D04<br><span class="approved">Approved</span></td><td>Show the bare boards as named, revision-controlled BOM/documentation items without creating duplicate electrical footprints.</td><td>User requested boards represented in the schematic and BOM. Exact fabrication-panel versus individual-board purchasing quantities still need agreement to avoid double ordering.</td></tr>
+<tr><td>D05<br><span class="approved">Approved</span></td><td>Keep the receiver and transmitter sections electrically separate, with no routed copper crossing the breakaway area and distinct power net names where required.</td><td>Included in the approved combined-board proposal. Native netlist and DRC verification remain necessary.</td></tr>
+<tr><td>D06<br><span class="approved">Approved scope</span></td><td>Proceed with PCB work without making firmware verification the immediate blocker.</td><td>User prioritised PCB work. Firmware verification is deferred, not claimed complete; bench and optical tests remain necessary before relying on the system.</td></tr>
+<tr><td>D07<br><span class="approved">Existing requirements</span></td><td>Two external regulated 12 V adapters; no mains on custom PCBs; advisory RGB/light indication; no automatic garage-door control.</td><td>Previously specified by the user. No power-interface or sensor substitution authorised by this log.</td></tr>
+<tr><td>D08<br><span class="approved">Approved</span></td><td>Three installed transmitter/receiver pairs. Preserve the previously requested fourth-channel expansion capability unless the user explicitly changes that requirement; do not purchase a fourth pair by default.</td><td>User answered Q03: three pairs. The existing four-channel circuit does not imply four populated optical pairs.</td></tr>
+<tr><td>D09<br><span class="approved">Approved</span></td><td>At each iteration, move superseded active design documents into a dated deprecated/archive folder and remove obsolete active-project references. Keep a manifest and recoverable copies; do not discard unsaved user edits.</td><td>User answered Q04: obsolete documents should be removed or moved to old/deprecated storage on each iteration. Recoverable archival is selected within that explicit permission. Not yet applied to the native project.</td></tr>
+<tr><td>D10<br><span class="approved">Approved scope</span></td><td>Prioritise a clean schematic and correctly identified components, footprints and 3D models assigned to the receiver or transmitter section. Leave board dimensions, enclosure selection, mounting and separation geometry for later manual work.</td><td>User answered Q01/Q02/Q05. Do not route, choose mounting-hole positions or treat a generic fabrication rule as a manufacturer-approved dimension.</td></tr>
+</tbody></table>
+<h2>User answers and deferred choices</h2>
+<table>
+<thead><tr><th>ID</th><th>Unresolved choice</th><th>Why it matters</th></tr></thead>
+<tbody>
+<tr><td>Q01<br>Deferred</td><td>User will specify mounting and dimensions after the physical parts arrive.</td><td>Not a blocker to schematic organisation, model audit or assigning parts to board sections. No mechanical assumptions authorised.</td></tr>
+<tr><td>Q02<br>Deferred</td><td>Use conventional fabrication methods; apply the selected manufacturer's limitations later.</td><td>No specific V-score/tab geometry or manufacturer has been approved. Not a blocker to schematic work.</td></tr>
+<tr><td>Q03<br>Answered in part</td><td>Three installed sensor pairs.</td><td>Beam quantity is settled. Before introducing a new connector type or changing the emitter circuit, ask about that concrete change rather than bundling it with the beam-count question.</td></tr>
+<tr><td>Q04<br>Approved</td><td>Archive obsolete design documents each iteration.</td><td>Keep old content recoverable; consolidate the two mounting pages into one active overview. Do not remove unique installation information before transferring it.</td></tr>
+<tr><td>Q05<br>Deferred</td><td>User will check the capacitor issue manually later. Do not execute the prepared repair in this pass.</td><td>Duplicate pins and disconnected capacitor nets remain known electrical issues, not passed checks. They still block fabrication approval.</td></tr>
+</tbody></table>
+<h2>Earlier implementation checkpoint — superseded above</h2>
+<p class="notice">Altium's window disappeared during native inspection. The attempted relaunch did not expose a targetable Altium window. Native schematic/PCB editing is paused pending the user reopening Altium. Only this decision log was updated in this pass; no board, component, page or obsolete file has been moved or removed.</p>
+<p>The existing hierarchy script links the overview to the power, beam-input, RGB, optical-head and installation sheets. It labels the overview “00” while assigning internal SheetNumber “01”, and leaves a separate installation page. These are the specific inconsistencies to fix; the supplied screenshot confirms real Sheet Symbols are required, not decorative replacements.</p>
+<h2>Original baseline on disk — before configuration cleanup</h2>
+<ul>
+<li>Working project: <code>C:\dev\projects\h\hardware_projects\garage_door_colision_detector\hardware\altium\GarageBeamSafety.PrjPcb</code>.</li>
+<li>The project still references both <code>GarageBeamSafety.PcbDoc</code> and <code>GarageBeamSafety_ReflectorCarrier.PcbDoc</code>. The single-document arrangement has not been implemented.</li>
+<li>Git contains existing modified schematics, the controller PCB and reports, plus untracked repair artifacts. Preserve them.</li>
+<li>The previous native pin repair added missing components in a staging area; it did not complete placement or routing. See <a href="PIN_REPAIR.html">pin-repair record</a>.</li>
+<li>Reading the saved project cannot determine whether Altium currently holds unsaved changes.</li>
+</ul>
+<h2>Completion gates — not yet passed</h2>
+<p>Approved mechanical envelope and separation rules; exact component/pad mapping; correctly linked hierarchy; native schematic/PCB synchronization; final placement and routing; ERC/DRC review; verified 3D fit; fabrication/BOM review. Installed-system validation follows separately.</p>
+<h2>History</h2>
+<p><strong>10 September 2026:</strong> Initial decision log created. The earlier recommendation for two separate PCB projects is superseded by D01. No physical design changes made as part of this entry.</p>
+<p><strong>10 September 2026 — user clarification:</strong> Q01/Q02 deferred; three pairs confirmed; archive obsolete documents each iteration; capacitor repair deferred; one macro/mounting page numbered 1; prioritise correct parts/3D and board identification. The original reference to “page 0” is superseded by revised D02.</p>
+</body>
+</html>

@@ -1,0 +1,11 @@
+DO NOT RUN RepairCapacitorConnections.pas or its PrjScr.
+
+10 September 2026 correction:
+The repeated capacitor pin identifiers are in different symbol display modes.
+They are not duplicate active pins. The archived deletion-based repair was
+incorrect and must not be used. These files are retained as history only.
+
+The replacement is hardware/altium/scripts/SchematicFinish/SchematicFinish.PrjScr.
+It adds only missing wires, preserves all pin/display-mode records and creates
+native backups. Its bulk-capacitor entry requires explicit user approval.
+Read docs/FINISH_SCHEMATIC.html before execution.

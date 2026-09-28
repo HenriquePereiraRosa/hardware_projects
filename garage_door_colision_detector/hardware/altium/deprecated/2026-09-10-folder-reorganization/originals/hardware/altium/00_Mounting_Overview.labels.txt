@@ -1,0 +1,70 @@
+=sheetnumber
+=organization
+=address1
+=address2
+=address3
+=address4
+=sheettotal
+=title
+=documentnumber
+=revision
+=CurrentDate
+=CurrentTime
+=DocumentFullPathAndName
+Title
+Size:
+Number:
+Date:
+File:
+Revision:
+Sheet
+of
+Time:
+A4
+=Title
+=ProjectName
+=ModifiedDate
+=DocumentName
+=SheetNumber
+=SheetTotal
+=Revision
+=Engineer
+00  FIXED-UPRIGHT MOUNTING / TWO LOCAL 12 V SUPPLIES
+Installation overview, not to scale. Actual TX/RX electrical components and cable pinout: sheet 04.
+LEFT FIXED METAL UPRIGHT
+RIGHT FIXED METAL UPRIGHT
+APPROX. 2.4 m OPTICAL SPAN
+RX3
+TX3
+RX2
+TX2
+RX1
+TX1
+E3Z-T61-D 2M receivers
+E3Z-T61-L 2M emitters
+3 beams shown; channel 4 optional
+Optical faces oppose each other; no mirror
+Adjustable, lockable brackets
+No second ESP32
+Mount on STATIONARY uprights, outside the entire roller/door travel envelope. Do not drill the roller running surface.
+Heads: 10.8 W x 31 H x 20 D mm; 2 M3 holes / 25.4 mm pitch. Final heights, brackets and enclosure sizes remain open.
+BOX A - COMPACT CONTROLLER
+A1 ESP32-DevKitC-32E / one MCU
+A2 Murata OKI-78SR -> 5 V
+J2/J3/J4/J6 -> receiver cables
+Protected 12 V / RGB driver / test button
+BOX B - DC DISTRIBUTION
+12 V -> fuse / protection -> TX1..TX4
+Powered industrial heads only
+No controller or Wi-Fi required
+VISIBLE RGB INDICATOR
+GREEN: configured beams clear
+RED: beam blocked / signal absent
+YELLOW: startup / known fault
+12 V analogue RGB; wired to J5
+DC cable -> J1
+DC -> Box B
+Each adapter plugs into a local mains outlet. Only its 12 V DC lead enters the low-voltage box. No mains on either PCB.
+5.5 x 2.1 mm, centre positive
+Separate supplies: no cross-span cable
+ADVISORY ONLY. No automatic door operation. Existing door safety sensors stay untouched. Brackets and beam coverage need checking.

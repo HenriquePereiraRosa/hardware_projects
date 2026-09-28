@@ -1,0 +1,6 @@
+[Design]
+Version=1.0
+[Document1]
+DocumentPath=FinishSync.pas
+[Generic_ScriptingSystem]
+StartProcName=FinishSync.pas>AuditSync

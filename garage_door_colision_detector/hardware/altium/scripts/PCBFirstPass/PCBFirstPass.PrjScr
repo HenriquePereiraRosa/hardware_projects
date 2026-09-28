@@ -1,0 +1,8 @@
+[Design]
+Version=1.0
+
+[Document1]
+DocumentPath=PCBFirstPass.pas
+
+[Generic_ScriptingSystem]
+StartProcName=PCBFirstPass.pas>RunPCBFirstPass

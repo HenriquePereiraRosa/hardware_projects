@@ -1,0 +1,1 @@
+COMPLETE: staged copies, hashes and project references verified; originals archived.

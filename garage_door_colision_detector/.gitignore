@@ -1,0 +1,18 @@
+# Altium local caches and recovery history (existing tracked files are retained).
+hardware/altium/History/
+hardware/altium/__Previews/
+hardware/altium/Project Logs/
+*.SchDocPreview
+*.PcbDocPreview
+*.PrjPcbStructure
+*.PrjPcbStructurePreview
+*.lck
+*.bak
+__pycache__/
+*.pyc
+firmware/.pio/
+tmp/
+
+# Altium per-document caches after physical folder organization.
+**/History/
+**/__Previews/

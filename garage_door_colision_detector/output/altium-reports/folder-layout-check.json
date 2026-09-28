@@ -1,0 +1,169 @@
+{
+  "checkedAt": "2026-09-10T19:10:56.184Z",
+  "folderChecks": "PASS",
+  "nativeAltiumReopen": "PENDING",
+  "projectDocuments": [
+    "sch\\00_Mounting_Overview.SchDoc",
+    "sch\\01_Power_Control.SchDoc",
+    "sch\\02_Beam_Inputs.SchDoc",
+    "sch\\03_UI_Outputs.SchDoc",
+    "pcb\\GarageBeamSafety.PcbDoc",
+    "bom\\GarageBeamSafety.BomDoc",
+    "lib\\ESP32-DEVKITC-32E\\ESP32-DEVKITC-32E.SchLib",
+    "lib\\ESP32-DEVKITC-32E\\MODULE_ESP32-DEVKITC-32E.PcbLib",
+    "GarageBeamSafety.OutJob",
+    "sch\\04_Optical_Heads.SchDoc",
+    "lib\\OpticalHardware.SchLib",
+    "lib\\OpticalHardware.PcbLib",
+    "sch\\05_Installation.SchDoc",
+    "lib\\PartSpecificComponents.SchLib",
+    "lib\\PartSpecificFootprints.PcbLib"
+  ],
+  "nativeHashes": [
+    {
+      "file": "hardware\\altium\\sch\\00_Mounting_Overview.SchDoc",
+      "sha256": "93EDE26A65E9DAEDC788E78897AE9DD143DEA1A20DA9794D25CBB26CD9ED9050"
+    },
+    {
+      "file": "hardware\\altium\\sch\\01_Power_Control.SchDoc",
+      "sha256": "DA5E0FC8986CEEAB78F01134793B9AAE749C4C6D8D7CED8B35174D5AF365E1B8"
+    },
+    {
+      "file": "hardware\\altium\\sch\\02_Beam_Inputs.SchDoc",
+      "sha256": "C28AE1C5073CDFFEEA0EA11982711139A64F756C9AABEC62476990E4149750E7"
+    },
+    {
+      "file": "hardware\\altium\\sch\\03_UI_Outputs.SchDoc",
+      "sha256": "A6D15A45686B95215B80F65B36021626B95092AAA736EB1F78015E7A79422614"
+    },
+    {
+      "file": "hardware\\altium\\sch\\04_Optical_Heads.SchDoc",
+      "sha256": "4D3CC40586B5D17211898BE35E7BEA8EDDD0CAAEBC2B7FC7057F3B7E630063B6"
+    },
+    {
+      "file": "hardware\\altium\\sch\\05_Installation.SchDoc",
+      "sha256": "63EC28E4FEED606D566DB127FEAE29A1BC9E31D39115F5CD587D0625F7BF4AD1"
+    },
+    {
+      "file": "hardware\\altium\\pcb\\GarageBeamSafety.PcbDoc",
+      "sha256": "3E4B045657BD96E2CD2B4BFD35BD81E8170BF3F239AF64B073E62046BB45E010"
+    },
+    {
+      "file": "hardware\\altium\\bom\\GarageBeamSafety.BomDoc",
+      "sha256": "3DF04F6C546F2908CE96F04B9D05E26732B782C6A35A68C66F9503E857FCB24F"
+    },
+    {
+      "file": "hardware\\altium\\deprecated\\2026-09-10-folder-reorganization\\unused-documents\\GarageBeamSafety.SchDoc",
+      "sha256": "8CBA5B7716AD9CA7239CEEBDD1CD527042CA74D435C9D3E8ADE856B9910A0ED8"
+    }
+  ],
+  "sheetLinks": [
+    {
+      "parent": "sch\\00_Mounting_Overview.SchDoc",
+      "child": "01_Power_Control.SchDoc"
+    },
+    {
+      "parent": "sch\\00_Mounting_Overview.SchDoc",
+      "child": "02_Beam_Inputs.SchDoc"
+    },
+    {
+      "parent": "sch\\00_Mounting_Overview.SchDoc",
+      "child": "03_UI_Outputs.SchDoc"
+    },
+    {
+      "parent": "sch\\00_Mounting_Overview.SchDoc",
+      "child": "04_Optical_Heads.SchDoc"
+    },
+    {
+      "parent": "sch\\00_Mounting_Overview.SchDoc",
+      "child": "05_Installation.SchDoc"
+    }
+  ],
+  "outputTypes": [
+    1,
+    2,
+    3
+  ],
+  "preExistingLibraryPaths": [
+    {
+      "document": "sch\\01_Power_Control.SchDoc",
+      "field": "SourceLibraryName",
+      "path": "C:\\dev\\projects\\h\\garage_door_colision_detector\\hardware\\altium\\lib\\PartSpecificComponents.SchLib"
+    },
+    {
+      "document": "sch\\01_Power_Control.SchDoc",
+      "field": "ModelDatafile0",
+      "path": "C:\\dev\\projects\\h\\garage_door_colision_detector\\hardware\\altium\\lib\\PartSpecificFootprints.PcbLib"
+    },
+    {
+      "document": "sch\\02_Beam_Inputs.SchDoc",
+      "field": "SourceLibraryName",
+      "path": "C:\\dev\\projects\\h\\garage_door_colision_detector\\hardware\\altium\\lib\\PartSpecificComponents.SchLib"
+    },
+    {
+      "document": "sch\\02_Beam_Inputs.SchDoc",
+      "field": "ModelDatafile0",
+      "path": "C:\\dev\\projects\\h\\garage_door_colision_detector\\hardware\\altium\\lib\\OpticalHardware.PcbLib"
+    },
+    {
+      "document": "sch\\02_Beam_Inputs.SchDoc",
+      "field": "ModelDatafile0",
+      "path": "C:\\dev\\projects\\h\\garage_door_colision_detector\\hardware\\altium\\lib\\celestial\\PCB - RESISTOR - CHIP - YAGEO RES 0805_2012.PCBLIB"
+    },
+    {
+      "document": "sch\\02_Beam_Inputs.SchDoc",
+      "field": "ModelDatafile0",
+      "path": "C:\\dev\\projects\\h\\garage_door_colision_detector\\hardware\\altium\\lib\\celestial\\PCB - OPTOISOLATOR - LITEON LTV-817.PCBLIB"
+    },
+    {
+      "document": "sch\\02_Beam_Inputs.SchDoc",
+      "field": "ModelDatafile0",
+      "path": "C:\\dev\\projects\\h\\garage_door_colision_detector\\hardware\\altium\\lib\\celestial\\PCB - CAPACITOR - MLCC - MURATA GRM21B 0805_2012.PCBLIB"
+    },
+    {
+      "document": "sch\\03_UI_Outputs.SchDoc",
+      "field": "ModelDatafile0",
+      "path": "C:\\dev\\projects\\h\\garage_door_colision_detector\\hardware\\altium\\lib\\celestial\\PCB - RESISTOR - CHIP - YAGEO RES 0805_2012.PCBLIB"
+    },
+    {
+      "document": "sch\\03_UI_Outputs.SchDoc",
+      "field": "SourceLibraryName",
+      "path": "C:\\dev\\projects\\h\\garage_door_colision_detector\\hardware\\altium\\lib\\PartSpecificComponents.SchLib"
+    },
+    {
+      "document": "sch\\03_UI_Outputs.SchDoc",
+      "field": "ModelDatafile0",
+      "path": "C:\\dev\\projects\\h\\garage_door_colision_detector\\hardware\\altium\\lib\\PartSpecificFootprints.PcbLib"
+    },
+    {
+      "document": "pcb\\GarageBeamSafety.PcbDoc",
+      "field": "SOURCECOMPONENTLIBRARY",
+      "path": "C:\\dev\\projects\\h\\garage_door_colision_detector\\hardware\\altium\\lib\\PartSpecificComponents.SchLib"
+    },
+    {
+      "document": "pcb\\GarageBeamSafety.PcbDoc",
+      "field": "SOURCEFOOTPRINTLIBRARY",
+      "path": "C:\\dev\\projects\\h\\garage_door_colision_detector\\hardware\\altium\\lib\\celestial\\PCB - OPTOISOLATOR - LITEON LTV-817.PCBLIB"
+    },
+    {
+      "document": "pcb\\GarageBeamSafety.PcbDoc",
+      "field": "SOURCEFOOTPRINTLIBRARY",
+      "path": "C:\\dev\\projects\\h\\garage_door_colision_detector\\hardware\\altium\\lib\\celestial\\PCB - CAPACITOR - MLCC - MURATA GRM21B 0805_2012.PCBLIB"
+    },
+    {
+      "document": "pcb\\GarageBeamSafety.PcbDoc",
+      "field": "SOURCEFOOTPRINTLIBRARY",
+      "path": "C:\\dev\\projects\\h\\garage_door_colision_detector\\hardware\\altium\\lib\\celestial\\PCB - RESISTOR - CHIP - YAGEO RES 0805_2012.PCBLIB"
+    },
+    {
+      "document": "sch\\04_Optical_Heads.SchDoc",
+      "field": "SourceLibraryName",
+      "path": "C:\\dev\\projects\\h\\garage_door_colision_detector\\hardware\\altium\\lib\\PartSpecificComponents.SchLib"
+    }
+  ],
+  "limits": [
+    "Raw saved-field scan, not a full Altium compiler/library-resolution check.",
+    "Circuit contents unchanged. Existing library links still require native review.",
+    "No routing, ECO, ERC or 3D repair performed."
+  ]
+}

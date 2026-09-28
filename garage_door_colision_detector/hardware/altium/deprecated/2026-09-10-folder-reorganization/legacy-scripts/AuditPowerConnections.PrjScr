@@ -1,0 +1,6 @@
+[Design]
+Version=1.0
+[Document1]
+DocumentPath=AuditPowerConnections.pas
+[Generic_ScriptingSystem]
+StartProcName=AuditPowerConnections.pas>AuditPowerConnections

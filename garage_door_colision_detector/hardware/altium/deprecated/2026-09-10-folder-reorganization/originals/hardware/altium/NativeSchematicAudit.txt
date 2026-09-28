@@ -1,0 +1,41 @@
+COMPONENT_COUNT=40
+J1|USB-C POWER ONLY|6-pin charge-only USB-C receptacle, 3A
+R1|5.1k|USB-C CC1 pull-down
+R2|5.1k|USB-C CC2 pull-down
+F1|1.5A PTC|Resettable input fuse
+D1|SMAJ5.0A|5V VBUS TVS diode
+Q1|DMP2035U|P-channel reverse-current protection MOSFET
+C1|470uF|5V bulk capacitor
+A2|U3V16F12|Regulated 5V-to-12V boost module
+C5|100uF|12V sensor rail bulk capacitor
+A1|ESP32 DevKit 30-pin|Socketed ESP32-WROOM development board
+J2|SENSOR TERMINAL|5.08mm terminal 12V/0V/SIG
+R5|2.2k|Optocoupler input resistor
+U2|LTV-817S|Phototransistor optocoupler
+D2|1N4148W|Reverse clamp across optocoupler input
+R6|10k|GPIO pull-up
+R7|1k|GPIO series resistor
+C2|100nF|GPIO input filter
+J3|SENSOR TERMINAL|5.08mm terminal 12V/0V/SIG
+R8|2.2k|Optocoupler input resistor
+U3|LTV-817S|Phototransistor optocoupler
+D3|1N4148W|Reverse clamp across optocoupler input
+R9|10k|GPIO pull-up
+R10|1k|GPIO series resistor
+C3|100nF|GPIO input filter
+J4|SENSOR TERMINAL|5.08mm terminal 12V/0V/SIG
+R11|2.2k|Optocoupler input resistor
+U4|LTV-817S|Phototransistor optocoupler
+D4|1N4148W|Reverse clamp across optocoupler input
+R12|10k|GPIO pull-up
+R13|1k|GPIO series resistor
+C4|100nF|GPIO input filter
+J5|STATUS LED TERMINAL|External status LED connector
+R14|330R|Green LED current limit
+R15|330R|Red LED current limit
+R16|330R|Amber LED current limit
+R17|1k|Buzzer transistor base resistor
+Q2|MMBT2222A|Buzzer low-side driver
+BZ1|CPT-9019S|3V magnetic transducer
+D5|1N4148W|Buzzer flyback clamp
+SW1|ALIGN/TEST|Alignment and test tactile switch

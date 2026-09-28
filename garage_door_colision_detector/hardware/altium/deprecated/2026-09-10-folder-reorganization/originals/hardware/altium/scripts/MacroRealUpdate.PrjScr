@@ -1,0 +1,6 @@
+[Design]
+Version=1.0
+[Document1]
+DocumentPath=MacroRealUpdate.pas
+[Generic_ScriptingSystem]
+StartProcName=MacroRealUpdate.pas>UpdateMacroAndInspect

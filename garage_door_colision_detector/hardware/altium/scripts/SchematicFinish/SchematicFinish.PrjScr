@@ -1,0 +1,6 @@
+[Design]
+Version=1.0
+[Document1]
+DocumentPath=SchematicFinish.pas
+[Generic_ScriptingSystem]
+StartProcName=SchematicFinish.pas>RepairInputFilterConnections

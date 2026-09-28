@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Garage beam — repository and PCB sync status</title>
+<style>:root{color-scheme:dark}body{margin:0;background:#11151b;color:#e4eaf1;font:17px/1.65 Arial,sans-serif}main{max-width:960px;margin:40px auto;padding:0 24px 50px}h1,h2{line-height:1.25}h1{font-size:32px}h2{margin-top:34px;font-size:23px}a{color:#87caff}code{overflow-wrap:anywhere;color:#b5d7f7}section{background:#1b222c;padding:20px 24px;border-radius:12px;margin:18px 0}.warning{border-left:5px solid #efb65b}small{color:#acb7c7}li{margin:9px 0}table{width:100%;border-collapse:collapse}td,th{text-align:left;padding:12px;border-bottom:1px solid #3b4656;vertical-align:top}th{color:#acd6fb}.done{color:#9bdfbd}.pending{color:#f1c775}</style></head>
+<body><main><small>9 September 2026 · native Altium inspection · not a manufacturing release</small>
+<h1>Repository ready. PCB synchronization needs repair.</h1>
+<p>The project was already copied into the Git repository. That copy is now the working target; no duplicate project was created and no commit or push was made.</p>
+<section><h2>Open this project</h2><p><a href="../hardware/altium/GarageBeamSafety.PrjPcb">GarageBeamSafety.PrjPcb</a></p><p><code>C:\dev\projects\h\hardware_projects\garage_door_colision_detector</code></p><p>Git root: <code>C:\dev\projects\h\hardware_projects</code><br>Existing baseline: <code>2f5708f</code>.</p><p>All six schematic pages remain present. The original PCB layout and net assignments are unchanged by this audit.</p></section>
+<section class="warning"><h2>Do not execute the old full ECO blindly</h2><p>The spreadsheet in <code>output/export-to-pcb-reports</code> is a <strong>Change Order Report</strong>, not an ERC pass report. Its execution-status cells are blank. It proposes removing 15 unnamed components and adding A1/A2 and other components. It cannot establish a successful synchronization.</p></section>
+<h2>Verified findings</h2><table><thead><tr><th>Item</th><th>Evidence and status</th></tr></thead><tbody>
+<tr><td>Git project and recovery</td><td class="done">Existing committed project confirmed. Added project-local ignore rules and saved recovery copies under hardware/altium/History/repo-sync-preparation-20260910.</td></tr>
+<tr><td>39 PCB components</td><td>24 have source designators. <strong>15 have blank displayed names, source designators, source unique IDs, and footprint names.</strong> An automatic identity repair deliberately skipped these objects.</td></tr>
+<tr><td>A1 ESP32</td><td class="pending">Schematic preview references the real 38-pin DevKitC footprint. PCB still has the older placeholder geometry. A correct schematic preview does not prove the placed PCB footprint was updated.</td></tr>
+<tr><td>External sensors and adapters</td><td>RX1–RX4, TX1–TX4 and PS1–PS2 were already Mechanical type (enum 1). Their intended off-board classification is confirmed, not a newly completed repair. The no-op re-saves were restored from the pre-audit backups.</td></tr>
+<tr><td>Export age / scope</td><td>The report includes RX pin-to-net operations despite current off-board classification. Regenerate it from the current repository project before judging remaining ECO actions.</td></tr>
+<tr><td>Electrical validation</td><td class="pending">No new successful ERC, PCB DRC, routing or physical optical-validation result is claimed.</td></tr>
+</tbody></table>
+<h2>Next repair sequence</h2><ol>
+<li>Identify each unnamed PCB object from its actual pads, connectivity and historical design. Do not infer identity solely from its position or box shape.</li>
+<li>Match recoverable objects to schematic unique IDs. Replace obsolete footprints with the exact linked library footprints; verify pin numbering, orientation and embedded STEP models, particularly A1's 38 pads.</li>
+<li>Recompile/validate the current project and regenerate the schematic-to-PCB change order. Review removals individually; add the missing fourth-channel and RGB circuitry only through a checked update.</li>
+<li>Review the power-input net (the older export contains <code>NetF1_1</code>), A1 power pins, RGB channel assignments and external-head exclusion.</li>
+<li>Inspect 3D heights/collisions, finish placement and routing, then run electrical and design-rule checks. Do not order a PCB from the current draft.</li></ol>
+<h2>Audit files and reproducibility</h2><ul>
+<li><a href="../hardware/altium/RepositorySync.audit.txt">Native component identity and external-type audit</a>. Its original EXTERNAL_MECHANICAL counts mean objects visited/reasserted; BEFORE=1 shows they were already Mechanical.</li>
+<li><a href="../hardware/altium/RepositorySync.before.txt">PCB component/pad/position/net snapshot</a>.</li>
+<li><a href="../hardware/altium/scripts/PrepareRepositorySync.pas">Guarded native audit/metadata script</a>. Missing or duplicate source identities prevent PCB changes. Current version only saves external sheets if classification actually changes.</li>
+<li><a href="PROJECT_TASKS.html">Broader project checklist</a> (older status; this page records the current synchronization findings).</li></ul>
+<p>Legacy generator scripts may still reference the old directory. Do not run a rebuild script against this copy without reviewing its paths and overwrite behavior.</p>
+<p><small>Altium reference: <a href="https://www.altium.com/documentation/altium-designer/schematic/placed-components">Mechanical component type and synchronization behavior</a>. Installation drawings retain off-board equipment; PCB connectivity must be checked at its connectors.</small></p>
+</main></body></html>

@@ -1,0 +1,17 @@
+START targeted update
+SAVED native OpticalHardware.PcbLib with embedded STEP
+SCH J2 1715734 pins retained; footprint link added
+SCH J3 1715734 pins retained; footprint link added
+SCH J4 1715734 pins retained; footprint link added
+SCH J6 1715734 pins retained; footprint link added
+SAVED native external-head schematic
+SAVED native OpticalHardware.SchLib
+PCB J2 real 1715734 footprint + embedded STEP; pads 1/2/3 assigned
+PCB J3 real 1715734 footprint + embedded STEP; pads 1/2/3 assigned
+PCB J4 real 1715734 footprint + embedded STEP; pads 1/2/3 assigned
+PCB J6 real 1715734 footprint + embedded STEP; pads 1/2/3 assigned
+SAVED controller PCB - still unrouted draft
+DONE - sensor STEP remains blocked at manufacturer server, not substituted
+SAVED native external-head schematic
+SAVED native OpticalHardware.SchLib
+FINISH: native audits exported; terminal clearance adjusted; wiring labels cleaned

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Garage Beam Safety — Project folders</title>
+<style>:root{color-scheme:dark}body{background:#121820;color:#e2eaf2;font:16px/1.65 Arial,sans-serif;max-width:1000px;margin:40px auto;padding:0 24px}h1,h2,a{color:#8ed0ff}small{color:#afbfcd}section{background:#1a2430;border:1px solid #334351;border-radius:10px;padding:20px 24px;margin:20px 0}pre{overflow:auto;background:#10151b;padding:18px;border-radius:8px;line-height:1.5}code{color:#b5e2c6;overflow-wrap:anywhere}.warn{border-left:5px solid #e8ba68}li{margin:8px 0}table{border-collapse:collapse;width:100%}td,th{padding:10px;text-align:left;border-bottom:1px solid #334351}</style></head><body>
+<small>10 September 2026 · physical disk organization · no circuit changes</small>
+<h1>One project. Clear folders.</h1>
+<p>Open <a href="../GarageBeamSafety.DsnWrk">GarageBeamSafety.DsnWrk</a> or <a href="../hardware/altium/GarageBeamSafety.PrjPcb">GarageBeamSafety.PrjPcb</a> in Altium. Their locations are unchanged. The following are real Windows folders, not Projects-panel display groups.</p>
+<section><h2>Where everything lives</h2><pre>garage_door_colision_detector/
+├── GarageBeamSafety.DsnWrk
+├── README.html
+├── hardware/
+│   ├── altium/
+│   │   ├── GarageBeamSafety.PrjPcb
+│   │   ├── GarageBeamSafety.OutJob
+│   │   ├── sch/                 Six active schematic sheets
+│   │   ├── pcb/                 One active PCB document
+│   │   ├── bom/                 Editable ActiveBOM
+│   │   ├── lib/                 Native component libraries (not moved)
+│   │   ├── 3d-models/           Existing model assets (not moved)
+│   │   ├── scripts/PCBFirstPass/
+│   │   ├── History/            Native repair backups
+│   │   ├── Project Logs/       Altium-generated logs
+│   │   ├── template-source/    Reference design only
+│   │   └── deprecated/         Archived originals and retired scripts
+│   └── manufacturing/
+│       ├── gerbers/
+│       ├── drill/
+│       ├── pick-place/
+│       ├── bom/
+│       └── drawings/
+├── output/altium-reports/     Previous audit reports and preview exports
+├── docs/                     Guides, decisions and validation plans
+├── tools/                    Repository maintenance and checks
+├── firmware/
+└── mechanical/</pre>
+<p>The manufacturing folders are destinations, <strong>not released production files</strong>. Existing purchasing/draft CSVs remain in manufacturing/bom. The OutJob is still a documentation job, not a complete fabrication-release setup.</p></section>
+<section><h2>Design documents</h2><table><tr><th>File</th><th>Purpose</th></tr>
+<tr><td><a href="../hardware/altium/sch/00_Mounting_Overview.SchDoc">00_Mounting_Overview.SchDoc</a></td><td>Existing hierarchical overview; consolidation and visible numbering remain deferred.</td></tr>
+<tr><td><a href="../hardware/altium/sch/01_Power_Control.SchDoc">01_Power_Control.SchDoc</a></td><td>Receiver/controller power and ESP32.</td></tr>
+<tr><td><a href="../hardware/altium/sch/02_Beam_Inputs.SchDoc">02_Beam_Inputs.SchDoc</a></td><td>Receiver inputs.</td></tr>
+<tr><td><a href="../hardware/altium/sch/03_UI_Outputs.SchDoc">03_UI_Outputs.SchDoc</a></td><td>RGB outputs and button.</td></tr>
+<tr><td><a href="../hardware/altium/sch/04_Optical_Heads.SchDoc">04_Optical_Heads.SchDoc</a></td><td>External optical heads.</td></tr>
+<tr><td><a href="../hardware/altium/sch/05_Installation.SchDoc">05_Installation.SchDoc</a></td><td>Existing installation and external power sheet.</td></tr>
+<tr><td><a href="../hardware/altium/pcb/GarageBeamSafety.PcbDoc">GarageBeamSafety.PcbDoc</a></td><td>Single active PCB document. RX/TX grouping and transmitter section are not completed by moving this file.</td></tr>
+<tr><td><a href="../hardware/altium/bom/GarageBeamSafety.BomDoc">GarageBeamSafety.BomDoc</a></td><td>Editable BOM configuration; procurement review still needed.</td></tr></table></section>
+<section><h2>What was verified</h2><ul><li>All 15 project document references resolve on disk.</li><li>Six active schematics, one PCB and one BomDoc have exactly the same binary hashes as before the move.</li><li>The five sheet-file links in the overview still resolve to sibling sheets.</li><li>OutJob paths target the current PCB/BOM; the retired carrier print task was removed. PDF destination is manufacturing/drawings.</li><li>PCBFirstPass paths and affected guide links were updated. Its static checks pass; the adjusted version has not been run inside Altium.</li><li>A deliberate-failure test on a temporary copy restored all 162 original fixture files byte-for-byte.</li></ul>
+<p><a href="../output/altium-reports/folder-layout-check.json">Machine-readable folder check</a> · <a href="../hardware/altium/deprecated/2026-09-10-folder-reorganization/move-manifest.json">Move manifest</a></p></section>
+<section class="warn"><h2>Separate issues — not hidden by this cleanup</h2><p>Some component library references already pointed to the deleted project location before this move. They are recorded in the folder check under <code>preExistingLibraryPaths</code>. Native component data was not rewritten here. Those references need a controlled native Altium library-link repair, not a binary search-and-replace.</p>
+<p>Missing 3D bodies on J1, J5, F1, F2, JP1 and SW1, PCB grouping, deferred capacitor corrections, and ERC/DRC work remain pending. Folder organization is not an electrical or fabrication validation.</p></section>
+<section><h2>Reopen and check in Altium</h2><ol><li>Open the workspace linked above, not a schematic from the Recent Documents list.</li><li>Open the overview, a child sheet and the PCB from the project tree. Confirm their paths contain <code>sch</code> and <code>pcb</code>.</li><li>Run <strong>Validate PCB Project</strong> and send the new Messages report. Check that navigation into the child sheets still works.</li><li>Do not execute an ECO proposing unexplained replacements or removals. Moving files did not change component identities or require a circuit rebuild.</li></ol><p><a href="ALTIUM_QUICK_REFERENCE.html">Altium command guide</a> · <a href="RUN_PCB_FIRST_PASS.html">PCBFirstPass guide</a> · <a href="DESIGN_DECISIONS.html">Decision log</a></p></section>
+<section><h2>Recovery and obsolete material</h2><p>No old file was permanently deleted. The archive <code>hardware/altium/deprecated/2026-09-10-folder-reorganization/</code> contains a move manifest, pre-edit text backups under <code>before/</code>, and original moved files under <code>originals/</code>. Historical generators and the deferred capacitor-repair script are preserved under <code>legacy-scripts/</code>; they are not approved to run against the reorganized project.</p><p>Do not rerun the one-time migration. It deliberately stops when its sources have already moved. For rollback, first preserve subsequent work and ask for assistance; blindly restoring an old snapshot would overwrite later edits.</p></section>
+</body></html>

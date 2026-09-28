@@ -1,0 +1,1945 @@
+{
+  "scope": "Saved-sheet geometric check, active display mode only; not full native ERC",
+  "sheets": {
+    "01_Power_Control": {
+      "pins": [
+        {
+          "ref": "J1",
+          "pin": "1",
+          "name": "+12V",
+          "electrical": 7,
+          "point": "15700000,62200000",
+          "x": 15700000,
+          "y": 62200000,
+          "uid": "NRMUYPSH",
+          "nets": []
+        },
+        {
+          "ref": "J1",
+          "pin": "2",
+          "name": "0V",
+          "electrical": 7,
+          "point": "15700000,59800000",
+          "x": 15700000,
+          "y": 59800000,
+          "uid": "MNXORRWE",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "F1",
+          "pin": "1",
+          "electrical": 4,
+          "point": "21000000,62200000",
+          "x": 21000000,
+          "y": 62200000,
+          "uid": "OGOSCUQN",
+          "nets": []
+        },
+        {
+          "ref": "F1",
+          "pin": "2",
+          "electrical": 4,
+          "point": "28000000,62200000",
+          "x": 28000000,
+          "y": 62200000,
+          "uid": "WMVOALII",
+          "nets": [
+            "12V_FUSED"
+          ]
+        },
+        {
+          "ref": "D6",
+          "pin": "1",
+          "name": "A",
+          "electrical": 4,
+          "point": "36500000,62200000",
+          "x": 36500000,
+          "y": 62200000,
+          "uid": "UOCJKIDM",
+          "nets": [
+            "12V_FUSED"
+          ]
+        },
+        {
+          "ref": "D6",
+          "pin": "2",
+          "name": "K",
+          "electrical": 4,
+          "point": "41500000,62200000",
+          "x": 41500000,
+          "y": 62200000,
+          "uid": "HMAQPMGV",
+          "nets": [
+            "12V_SENSOR"
+          ]
+        },
+        {
+          "ref": "A2",
+          "pin": "1",
+          "name": "VIN",
+          "electrical": 4,
+          "point": "51800000,62500000",
+          "x": 51800000,
+          "y": 62500000,
+          "uid": "QHXNYTIA",
+          "nets": [
+            "12V_SENSOR"
+          ]
+        },
+        {
+          "ref": "A2",
+          "pin": "2",
+          "name": "GND",
+          "electrical": 4,
+          "point": "51800000,59500000",
+          "x": 51800000,
+          "y": 59500000,
+          "uid": "WNAAINFK",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "A2",
+          "pin": "3",
+          "name": "VOUT",
+          "electrical": 4,
+          "point": "62200000,61000000",
+          "x": 62200000,
+          "y": 61000000,
+          "uid": "UZZMACBJ",
+          "nets": [
+            "5V_LOGIC"
+          ]
+        },
+        {
+          "ref": "D1",
+          "pin": "1",
+          "name": "A",
+          "electrical": 4,
+          "point": "27500000,48500000",
+          "x": 27500000,
+          "y": 48500000,
+          "uid": "TZHCHCPH",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "D1",
+          "pin": "2",
+          "name": "K",
+          "electrical": 4,
+          "point": "32500000,48500000",
+          "x": 32500000,
+          "y": 48500000,
+          "uid": "VBAPWZDE",
+          "nets": [
+            "12V_SENSOR"
+          ]
+        },
+        {
+          "ref": "C1",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "43300000,43400000",
+          "x": 43300000,
+          "y": 43400000,
+          "uid": "LYDTJGGN",
+          "nets": []
+        },
+        {
+          "ref": "C1",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "43300000,46400000",
+          "x": 43300000,
+          "y": 46400000,
+          "uid": "SSJXWVBN",
+          "nets": []
+        },
+        {
+          "ref": "C5",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "57000000,47000000",
+          "x": 57000000,
+          "y": 47000000,
+          "uid": "VBBTDFOY",
+          "nets": []
+        },
+        {
+          "ref": "C5",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "57000000,50000000",
+          "x": 57000000,
+          "y": 50000000,
+          "uid": "UQFAGYFB",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J2_1",
+          "name": "3V3",
+          "electrical": 7,
+          "point": "46000000,35000000",
+          "x": 46000000,
+          "y": 35000000,
+          "uid": "TRONNUQG",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "A1",
+          "pin": "J2_2",
+          "name": "EN",
+          "electrical": 0,
+          "point": "46000000,34000000",
+          "x": 46000000,
+          "y": 34000000,
+          "uid": "LAEQUIWV",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J2_3",
+          "name": "SENSOR_VP",
+          "electrical": 1,
+          "point": "46000000,33000000",
+          "x": 46000000,
+          "y": 33000000,
+          "uid": "IBOSTQAC",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J2_4",
+          "name": "SENSOR_VN",
+          "electrical": 1,
+          "point": "46000000,32000000",
+          "x": 46000000,
+          "y": 32000000,
+          "uid": "GXGFOFAZ",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J2_5",
+          "name": "IO34",
+          "electrical": 0,
+          "point": "46000000,31000000",
+          "x": 46000000,
+          "y": 31000000,
+          "uid": "AVTSIAGJ",
+          "nets": [
+            "BEAM3_GPIO34"
+          ]
+        },
+        {
+          "ref": "A1",
+          "pin": "J2_6",
+          "name": "IO35",
+          "electrical": 0,
+          "point": "46000000,30000000",
+          "x": 46000000,
+          "y": 30000000,
+          "uid": "DJRRBWJD",
+          "nets": [
+            "BEAM4_GPIO35"
+          ]
+        },
+        {
+          "ref": "A1",
+          "pin": "J2_7",
+          "name": "IO32",
+          "electrical": 1,
+          "point": "46000000,29000000",
+          "x": 46000000,
+          "y": 29000000,
+          "uid": "VBEINDDD",
+          "nets": [
+            "BEAM1_GPIO32"
+          ]
+        },
+        {
+          "ref": "A1",
+          "pin": "J2_8",
+          "name": "IO33",
+          "electrical": 1,
+          "point": "46000000,28000000",
+          "x": 46000000,
+          "y": 28000000,
+          "uid": "QMHPNLSF",
+          "nets": [
+            "BEAM2_GPIO33"
+          ]
+        },
+        {
+          "ref": "A1",
+          "pin": "J2_9",
+          "name": "IO25",
+          "electrical": 1,
+          "point": "46000000,27000000",
+          "x": 46000000,
+          "y": 27000000,
+          "uid": "ZFPYODMI",
+          "nets": [
+            "LED_GREEN_GPIO25"
+          ]
+        },
+        {
+          "ref": "A1",
+          "pin": "J2_10",
+          "name": "IO26",
+          "electrical": 1,
+          "point": "46000000,26000000",
+          "x": 46000000,
+          "y": 26000000,
+          "uid": "UEPKYIAJ",
+          "nets": [
+            "LED_RED_GPIO26"
+          ]
+        },
+        {
+          "ref": "A1",
+          "pin": "J2_11",
+          "name": "IO27",
+          "electrical": 1,
+          "point": "46000000,25000000",
+          "x": 46000000,
+          "y": 25000000,
+          "uid": "ODJNBSLX",
+          "nets": [
+            "LED_BLUE_GPIO27"
+          ]
+        },
+        {
+          "ref": "A1",
+          "pin": "J2_12",
+          "name": "IO14",
+          "electrical": 1,
+          "point": "46000000,24000000",
+          "x": 46000000,
+          "y": 24000000,
+          "uid": "RQCWSQWS",
+          "nets": [
+            "RESERVED_GPIO14"
+          ]
+        },
+        {
+          "ref": "A1",
+          "pin": "J2_13",
+          "name": "IO12",
+          "electrical": 1,
+          "point": "46000000,23000000",
+          "x": 46000000,
+          "y": 23000000,
+          "uid": "RMRWHKOR",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J2_14",
+          "name": "GND_J2_14",
+          "electrical": 7,
+          "point": "46000000,22000000",
+          "x": 46000000,
+          "y": 22000000,
+          "uid": "OVNJNTEH",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "A1",
+          "pin": "J2_15",
+          "name": "IO13",
+          "electrical": 1,
+          "point": "46000000,21000000",
+          "x": 46000000,
+          "y": 21000000,
+          "uid": "LXBKBFEH",
+          "nets": [
+            "BUTTON_GPIO13"
+          ]
+        },
+        {
+          "ref": "A1",
+          "pin": "J2_16",
+          "name": "SD2",
+          "electrical": 1,
+          "point": "46000000,20000000",
+          "x": 46000000,
+          "y": 20000000,
+          "uid": "TRGYBPPD",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J2_17",
+          "name": "SD3",
+          "electrical": 1,
+          "point": "46000000,19000000",
+          "x": 46000000,
+          "y": 19000000,
+          "uid": "IWSMRDCD",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J2_18",
+          "name": "CMD",
+          "electrical": 1,
+          "point": "46000000,18000000",
+          "x": 46000000,
+          "y": 18000000,
+          "uid": "PSYFECJY",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J2_19",
+          "name": "EXT_5V",
+          "electrical": 7,
+          "point": "46000000,17000000",
+          "x": 46000000,
+          "y": 17000000,
+          "uid": "LULVPMQM",
+          "nets": [
+            "5V_MCU"
+          ]
+        },
+        {
+          "ref": "A1",
+          "pin": "J3_1",
+          "name": "GND_J3_1",
+          "electrical": 7,
+          "point": "62000000,35000000",
+          "x": 62000000,
+          "y": 35000000,
+          "uid": "HKDPEQQY",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "A1",
+          "pin": "J3_2",
+          "name": "IO23",
+          "electrical": 1,
+          "point": "62000000,34000000",
+          "x": 62000000,
+          "y": 34000000,
+          "uid": "FKBRASQH",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J3_3",
+          "name": "IO22",
+          "electrical": 1,
+          "point": "62000000,33000000",
+          "x": 62000000,
+          "y": 33000000,
+          "uid": "UXVJGZDR",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J3_4",
+          "name": "TXD0",
+          "electrical": 1,
+          "point": "62000000,32000000",
+          "x": 62000000,
+          "y": 32000000,
+          "uid": "HIMHEUNV",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J3_5",
+          "name": "RXD0",
+          "electrical": 1,
+          "point": "62000000,31000000",
+          "x": 62000000,
+          "y": 31000000,
+          "uid": "GGEGANZY",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J3_6",
+          "name": "IO21",
+          "electrical": 1,
+          "point": "62000000,30000000",
+          "x": 62000000,
+          "y": 30000000,
+          "uid": "CAZUASXT",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J3_7",
+          "name": "GND_J3_7",
+          "electrical": 7,
+          "point": "62000000,29000000",
+          "x": 62000000,
+          "y": 29000000,
+          "uid": "DEASRHFI",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "A1",
+          "pin": "J3_8",
+          "name": "IO19",
+          "electrical": 1,
+          "point": "62000000,28000000",
+          "x": 62000000,
+          "y": 28000000,
+          "uid": "HMIVDIUL",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J3_9",
+          "name": "IO18",
+          "electrical": 1,
+          "point": "62000000,27000000",
+          "x": 62000000,
+          "y": 27000000,
+          "uid": "WFLTNKHH",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J3_10",
+          "name": "IO5",
+          "electrical": 1,
+          "point": "62000000,26000000",
+          "x": 62000000,
+          "y": 26000000,
+          "uid": "YWHGZIQO",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J3_11",
+          "name": "IO17",
+          "electrical": 1,
+          "point": "62000000,25000000",
+          "x": 62000000,
+          "y": 25000000,
+          "uid": "LTEZUVEY",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J3_12",
+          "name": "IO16",
+          "electrical": 1,
+          "point": "62000000,24000000",
+          "x": 62000000,
+          "y": 24000000,
+          "uid": "BWZNEDVT",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J3_13",
+          "name": "IO4",
+          "electrical": 1,
+          "point": "62000000,23000000",
+          "x": 62000000,
+          "y": 23000000,
+          "uid": "FOXVHDFT",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J3_14",
+          "name": "IO0",
+          "electrical": 1,
+          "point": "62000000,22000000",
+          "x": 62000000,
+          "y": 22000000,
+          "uid": "XSUUZZIY",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J3_15",
+          "name": "IO2",
+          "electrical": 1,
+          "point": "62000000,21000000",
+          "x": 62000000,
+          "y": 21000000,
+          "uid": "VTKKEUQB",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J3_16",
+          "name": "IO15",
+          "electrical": 1,
+          "point": "62000000,20000000",
+          "x": 62000000,
+          "y": 20000000,
+          "uid": "AMSRKTCU",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J3_17",
+          "name": "SD1",
+          "electrical": 1,
+          "point": "62000000,19000000",
+          "x": 62000000,
+          "y": 19000000,
+          "uid": "ANAKKVHH",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J3_18",
+          "name": "SD0",
+          "electrical": 1,
+          "point": "62000000,18000000",
+          "x": 62000000,
+          "y": 18000000,
+          "uid": "NKCBBJYC",
+          "nets": []
+        },
+        {
+          "ref": "A1",
+          "pin": "J3_19",
+          "name": "CLK",
+          "electrical": 1,
+          "point": "62000000,17000000",
+          "x": 62000000,
+          "y": 17000000,
+          "uid": "NBRLTLOL",
+          "nets": []
+        },
+        {
+          "ref": "JP1",
+          "pin": "1",
+          "name": "5V",
+          "electrical": 4,
+          "point": "14000000,27000000",
+          "x": 14000000,
+          "y": 27000000,
+          "uid": "YQQUYAZC",
+          "nets": [
+            "5V_LOGIC"
+          ]
+        },
+        {
+          "ref": "JP1",
+          "pin": "2",
+          "name": "MCU",
+          "electrical": 4,
+          "point": "22000000,27000000",
+          "x": 22000000,
+          "y": 27000000,
+          "uid": "VUCOCIYD",
+          "nets": [
+            "5V_MCU"
+          ]
+        }
+      ],
+      "duplicatePins": [],
+      "shorts": []
+    },
+    "02_Beam_Inputs": {
+      "pins": [
+        {
+          "ref": "J2",
+          "pin": "1",
+          "name": "+12V",
+          "electrical": 4,
+          "point": "8800000,62500000",
+          "x": 8800000,
+          "y": 62500000,
+          "uid": "PBKIIVJY",
+          "nets": [
+            "12V_SENSOR"
+          ]
+        },
+        {
+          "ref": "J2",
+          "pin": "2",
+          "name": "0V",
+          "electrical": 4,
+          "point": "8800000,59500000",
+          "x": 8800000,
+          "y": 59500000,
+          "uid": "JVQQNQAB",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "J2",
+          "pin": "3",
+          "name": "OUT",
+          "electrical": 4,
+          "point": "19200000,61000000",
+          "x": 19200000,
+          "y": 61000000,
+          "uid": "TSBSJNRQ",
+          "nets": [
+            "BEAM1_SIG"
+          ]
+        },
+        {
+          "ref": "R5",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "26500000,62500000",
+          "x": 26500000,
+          "y": 62500000,
+          "uid": "PXVVODXE",
+          "nets": [
+            "12V_SENSOR"
+          ]
+        },
+        {
+          "ref": "R5",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "31500000,62500000",
+          "x": 31500000,
+          "y": 62500000,
+          "uid": "OTPAUGVD",
+          "nets": [
+            "BEAM1_LED_A"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "1",
+          "name": "A",
+          "electrical": 4,
+          "point": "38600000,62500000",
+          "x": 38600000,
+          "y": 62500000,
+          "uid": "GYTIEOQL",
+          "nets": [
+            "BEAM1_LED_A"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "2",
+          "name": "K",
+          "electrical": 4,
+          "point": "38600000,59500000",
+          "x": 38600000,
+          "y": 59500000,
+          "uid": "TJNAQQIF",
+          "nets": [
+            "BEAM1_SIG"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "3",
+          "name": "E",
+          "electrical": 4,
+          "point": "49400000,59500000",
+          "x": 49400000,
+          "y": 59500000,
+          "uid": "LTTCXEDG",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "4",
+          "name": "C",
+          "electrical": 3,
+          "point": "49400000,62500000",
+          "x": 49400000,
+          "y": 62500000,
+          "uid": "QNXGRQBK",
+          "nets": [
+            "BEAM1_RAW"
+          ]
+        },
+        {
+          "ref": "R6",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "58500000,67500000",
+          "x": 58500000,
+          "y": 67500000,
+          "uid": "FVNTKKUB",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "R6",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "63500000,67500000",
+          "x": 63500000,
+          "y": 67500000,
+          "uid": "LXQTBWYJ",
+          "nets": [
+            "BEAM1_RAW"
+          ]
+        },
+        {
+          "ref": "R7",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "68500000,62500000",
+          "x": 68500000,
+          "y": 62500000,
+          "uid": "AUSYUOUR",
+          "nets": [
+            "BEAM1_RAW"
+          ]
+        },
+        {
+          "ref": "R7",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "73500000,62500000",
+          "x": 73500000,
+          "y": 62500000,
+          "uid": "HNJJSSMU",
+          "nets": [
+            "BEAM1_GPIO32"
+          ]
+        },
+        {
+          "ref": "C2",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "82500000,57000000",
+          "x": 82500000,
+          "y": 57000000,
+          "uid": "ZSVGEHSI",
+          "nets": []
+        },
+        {
+          "ref": "C2",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "82500000,60000000",
+          "x": 82500000,
+          "y": 60000000,
+          "uid": "NWXYTZAK",
+          "nets": []
+        },
+        {
+          "ref": "D2",
+          "pin": "1",
+          "name": "A",
+          "electrical": 4,
+          "point": "41500000,55600000",
+          "x": 41500000,
+          "y": 55600000,
+          "uid": "GGLHAHCF",
+          "nets": [
+            "BEAM1_SIG"
+          ]
+        },
+        {
+          "ref": "D2",
+          "pin": "2",
+          "name": "K",
+          "electrical": 4,
+          "point": "46500000,55600000",
+          "x": 46500000,
+          "y": 55600000,
+          "uid": "TVOJTPKK",
+          "nets": [
+            "BEAM1_LED_A"
+          ]
+        },
+        {
+          "ref": "J3",
+          "pin": "1",
+          "name": "+12V",
+          "electrical": 4,
+          "point": "8800000,48000000",
+          "x": 8800000,
+          "y": 48000000,
+          "uid": "AYOASZRD",
+          "nets": [
+            "12V_SENSOR"
+          ]
+        },
+        {
+          "ref": "J3",
+          "pin": "2",
+          "name": "0V",
+          "electrical": 4,
+          "point": "8800000,45000000",
+          "x": 8800000,
+          "y": 45000000,
+          "uid": "ORIGHPRC",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "J3",
+          "pin": "3",
+          "name": "OUT",
+          "electrical": 4,
+          "point": "19200000,46500000",
+          "x": 19200000,
+          "y": 46500000,
+          "uid": "PYIOPFNV",
+          "nets": [
+            "BEAM2_SIG"
+          ]
+        },
+        {
+          "ref": "R8",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "26500000,48000000",
+          "x": 26500000,
+          "y": 48000000,
+          "uid": "TJWYJPLQ",
+          "nets": [
+            "12V_SENSOR"
+          ]
+        },
+        {
+          "ref": "R8",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "31500000,48000000",
+          "x": 31500000,
+          "y": 48000000,
+          "uid": "NAPXONGY",
+          "nets": [
+            "BEAM2_LED_A"
+          ]
+        },
+        {
+          "ref": "U3",
+          "pin": "1",
+          "name": "A",
+          "electrical": 4,
+          "point": "38600000,48000000",
+          "x": 38600000,
+          "y": 48000000,
+          "uid": "LKXXXSUL",
+          "nets": [
+            "BEAM2_LED_A"
+          ]
+        },
+        {
+          "ref": "U3",
+          "pin": "2",
+          "name": "K",
+          "electrical": 4,
+          "point": "38600000,45000000",
+          "x": 38600000,
+          "y": 45000000,
+          "uid": "VRZOBYQK",
+          "nets": [
+            "BEAM2_SIG"
+          ]
+        },
+        {
+          "ref": "U3",
+          "pin": "3",
+          "name": "E",
+          "electrical": 4,
+          "point": "49400000,45000000",
+          "x": 49400000,
+          "y": 45000000,
+          "uid": "DDGXQUFF",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "U3",
+          "pin": "4",
+          "name": "C",
+          "electrical": 3,
+          "point": "49400000,48000000",
+          "x": 49400000,
+          "y": 48000000,
+          "uid": "PQMMOXRH",
+          "nets": [
+            "BEAM2_RAW"
+          ]
+        },
+        {
+          "ref": "R9",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "58500000,53000000",
+          "x": 58500000,
+          "y": 53000000,
+          "uid": "EOFCEDPY",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "R9",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "63500000,53000000",
+          "x": 63500000,
+          "y": 53000000,
+          "uid": "QHGRVJNF",
+          "nets": [
+            "BEAM2_RAW"
+          ]
+        },
+        {
+          "ref": "R10",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "68500000,48000000",
+          "x": 68500000,
+          "y": 48000000,
+          "uid": "EXXMWPAA",
+          "nets": [
+            "BEAM2_RAW"
+          ]
+        },
+        {
+          "ref": "R10",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "73500000,48000000",
+          "x": 73500000,
+          "y": 48000000,
+          "uid": "COPBECJL",
+          "nets": [
+            "BEAM2_GPIO33"
+          ]
+        },
+        {
+          "ref": "C3",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "82500000,42500000",
+          "x": 82500000,
+          "y": 42500000,
+          "uid": "SATQXZZX",
+          "nets": []
+        },
+        {
+          "ref": "C3",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "82500000,45500000",
+          "x": 82500000,
+          "y": 45500000,
+          "uid": "NHRGIJNN",
+          "nets": []
+        },
+        {
+          "ref": "D3",
+          "pin": "1",
+          "name": "A",
+          "electrical": 4,
+          "point": "41500000,41100000",
+          "x": 41500000,
+          "y": 41100000,
+          "uid": "GONCRLQA",
+          "nets": [
+            "BEAM2_SIG"
+          ]
+        },
+        {
+          "ref": "D3",
+          "pin": "2",
+          "name": "K",
+          "electrical": 4,
+          "point": "46500000,41100000",
+          "x": 46500000,
+          "y": 41100000,
+          "uid": "RMWFSSKF",
+          "nets": [
+            "BEAM2_LED_A"
+          ]
+        },
+        {
+          "ref": "J4",
+          "pin": "1",
+          "name": "+12V",
+          "electrical": 4,
+          "point": "8800000,33500000",
+          "x": 8800000,
+          "y": 33500000,
+          "uid": "KSGNKLLH",
+          "nets": [
+            "12V_SENSOR"
+          ]
+        },
+        {
+          "ref": "J4",
+          "pin": "2",
+          "name": "0V",
+          "electrical": 4,
+          "point": "8800000,30500000",
+          "x": 8800000,
+          "y": 30500000,
+          "uid": "BZZRWUJZ",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "J4",
+          "pin": "3",
+          "name": "OUT",
+          "electrical": 4,
+          "point": "19200000,32000000",
+          "x": 19200000,
+          "y": 32000000,
+          "uid": "OBONUASO",
+          "nets": [
+            "BEAM3_SIG"
+          ]
+        },
+        {
+          "ref": "R11",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "26500000,33500000",
+          "x": 26500000,
+          "y": 33500000,
+          "uid": "OJHDJJYU",
+          "nets": [
+            "12V_SENSOR"
+          ]
+        },
+        {
+          "ref": "R11",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "31500000,33500000",
+          "x": 31500000,
+          "y": 33500000,
+          "uid": "AILWYDEI",
+          "nets": [
+            "BEAM3_LED_A"
+          ]
+        },
+        {
+          "ref": "U4",
+          "pin": "1",
+          "name": "A",
+          "electrical": 4,
+          "point": "38600000,33500000",
+          "x": 38600000,
+          "y": 33500000,
+          "uid": "WVRLEEZB",
+          "nets": [
+            "BEAM3_LED_A"
+          ]
+        },
+        {
+          "ref": "U4",
+          "pin": "2",
+          "name": "K",
+          "electrical": 4,
+          "point": "38600000,30500000",
+          "x": 38600000,
+          "y": 30500000,
+          "uid": "FEKCZTTE",
+          "nets": [
+            "BEAM3_SIG"
+          ]
+        },
+        {
+          "ref": "U4",
+          "pin": "3",
+          "name": "E",
+          "electrical": 4,
+          "point": "49400000,30500000",
+          "x": 49400000,
+          "y": 30500000,
+          "uid": "ABKWKPEF",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "U4",
+          "pin": "4",
+          "name": "C",
+          "electrical": 3,
+          "point": "49400000,33500000",
+          "x": 49400000,
+          "y": 33500000,
+          "uid": "NBOUUROL",
+          "nets": [
+            "BEAM3_RAW"
+          ]
+        },
+        {
+          "ref": "R12",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "58500000,38500000",
+          "x": 58500000,
+          "y": 38500000,
+          "uid": "WUHNVGGK",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "R12",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "63500000,38500000",
+          "x": 63500000,
+          "y": 38500000,
+          "uid": "HBVMQRQN",
+          "nets": [
+            "BEAM3_RAW"
+          ]
+        },
+        {
+          "ref": "R13",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "68500000,33500000",
+          "x": 68500000,
+          "y": 33500000,
+          "uid": "ITAMWUZO",
+          "nets": [
+            "BEAM3_RAW"
+          ]
+        },
+        {
+          "ref": "R13",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "73500000,33500000",
+          "x": 73500000,
+          "y": 33500000,
+          "uid": "QYKSLCOB",
+          "nets": [
+            "BEAM3_GPIO34"
+          ]
+        },
+        {
+          "ref": "C4",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "82500000,28000000",
+          "x": 82500000,
+          "y": 28000000,
+          "uid": "KNXUXHJH",
+          "nets": []
+        },
+        {
+          "ref": "C4",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "82500000,31000000",
+          "x": 82500000,
+          "y": 31000000,
+          "uid": "AWKGANCV",
+          "nets": []
+        },
+        {
+          "ref": "D4",
+          "pin": "1",
+          "name": "A",
+          "electrical": 4,
+          "point": "41500000,26600000",
+          "x": 41500000,
+          "y": 26600000,
+          "uid": "LOJAZJOF",
+          "nets": [
+            "BEAM3_SIG"
+          ]
+        },
+        {
+          "ref": "D4",
+          "pin": "2",
+          "name": "K",
+          "electrical": 4,
+          "point": "46500000,26600000",
+          "x": 46500000,
+          "y": 26600000,
+          "uid": "UPQXARYT",
+          "nets": [
+            "BEAM3_LED_A"
+          ]
+        },
+        {
+          "ref": "J6",
+          "pin": "1",
+          "name": "+12V",
+          "electrical": 4,
+          "point": "8800000,19000000",
+          "x": 8800000,
+          "y": 19000000,
+          "uid": "LKHXEYWQ",
+          "nets": [
+            "12V_SENSOR"
+          ]
+        },
+        {
+          "ref": "J6",
+          "pin": "2",
+          "name": "0V",
+          "electrical": 4,
+          "point": "8800000,16000000",
+          "x": 8800000,
+          "y": 16000000,
+          "uid": "VKIBUAFI",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "J6",
+          "pin": "3",
+          "name": "OUT",
+          "electrical": 4,
+          "point": "19200000,17500000",
+          "x": 19200000,
+          "y": 17500000,
+          "uid": "PNGOIZMK",
+          "nets": [
+            "BEAM4_SIG"
+          ]
+        },
+        {
+          "ref": "R18",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "26500000,19000000",
+          "x": 26500000,
+          "y": 19000000,
+          "uid": "EYCHDOUN",
+          "nets": [
+            "12V_SENSOR"
+          ]
+        },
+        {
+          "ref": "R18",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "31500000,19000000",
+          "x": 31500000,
+          "y": 19000000,
+          "uid": "IWDXVVSI",
+          "nets": [
+            "BEAM4_LED_A"
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "1",
+          "name": "A",
+          "electrical": 4,
+          "point": "38600000,19000000",
+          "x": 38600000,
+          "y": 19000000,
+          "uid": "BUYEJNQW",
+          "nets": [
+            "BEAM4_LED_A"
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "2",
+          "name": "K",
+          "electrical": 4,
+          "point": "38600000,16000000",
+          "x": 38600000,
+          "y": 16000000,
+          "uid": "NXJGPMWR",
+          "nets": [
+            "BEAM4_SIG"
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "3",
+          "name": "E",
+          "electrical": 4,
+          "point": "49400000,16000000",
+          "x": 49400000,
+          "y": 16000000,
+          "uid": "ZOYSTZCY",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "4",
+          "name": "C",
+          "electrical": 3,
+          "point": "49400000,19000000",
+          "x": 49400000,
+          "y": 19000000,
+          "uid": "HBUYKVZH",
+          "nets": [
+            "BEAM4_RAW"
+          ]
+        },
+        {
+          "ref": "R19",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "58500000,24000000",
+          "x": 58500000,
+          "y": 24000000,
+          "uid": "BSZGIACQ",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "R19",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "63500000,24000000",
+          "x": 63500000,
+          "y": 24000000,
+          "uid": "TUREZJYN",
+          "nets": [
+            "BEAM4_RAW"
+          ]
+        },
+        {
+          "ref": "R20",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "68500000,19000000",
+          "x": 68500000,
+          "y": 19000000,
+          "uid": "RMRCHAJW",
+          "nets": [
+            "BEAM4_RAW"
+          ]
+        },
+        {
+          "ref": "R20",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "73500000,19000000",
+          "x": 73500000,
+          "y": 19000000,
+          "uid": "UHZXMMFK",
+          "nets": [
+            "BEAM4_GPIO35"
+          ]
+        },
+        {
+          "ref": "C6",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "82500000,13500000",
+          "x": 82500000,
+          "y": 13500000,
+          "uid": "JNWYJMIB",
+          "nets": []
+        },
+        {
+          "ref": "C6",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "82500000,16500000",
+          "x": 82500000,
+          "y": 16500000,
+          "uid": "GMRZYAHR",
+          "nets": []
+        },
+        {
+          "ref": "D7",
+          "pin": "1",
+          "name": "A",
+          "electrical": 4,
+          "point": "41500000,12100000",
+          "x": 41500000,
+          "y": 12100000,
+          "uid": "TAJWOUNN",
+          "nets": [
+            "BEAM4_SIG"
+          ]
+        },
+        {
+          "ref": "D7",
+          "pin": "2",
+          "name": "K",
+          "electrical": 4,
+          "point": "46500000,12100000",
+          "x": 46500000,
+          "y": 12100000,
+          "uid": "OYKBRXHL",
+          "nets": [
+            "BEAM4_LED_A"
+          ]
+        }
+      ],
+      "duplicatePins": [],
+      "shorts": []
+    },
+    "03_UI_Outputs": {
+      "pins": [
+        {
+          "ref": "R14",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "15500000,61000000",
+          "x": 15500000,
+          "y": 61000000,
+          "uid": "MROVRSML",
+          "nets": [
+            "LED_RED_GPIO26"
+          ]
+        },
+        {
+          "ref": "R14",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "20500000,61000000",
+          "x": 20500000,
+          "y": 61000000,
+          "uid": "QSCFPUVN",
+          "nets": [
+            "RGB_RED_GATE"
+          ]
+        },
+        {
+          "ref": "Q2",
+          "pin": "1",
+          "name": "G",
+          "electrical": 0,
+          "point": "31500000,61000000",
+          "x": 31500000,
+          "y": 61000000,
+          "uid": "IDQFJAIH",
+          "nets": [
+            "RGB_RED_GATE"
+          ]
+        },
+        {
+          "ref": "Q2",
+          "pin": "3",
+          "name": "D",
+          "electrical": 4,
+          "point": "40500000,62800000",
+          "x": 40500000,
+          "y": 62800000,
+          "uid": "WGBDUGJK",
+          "nets": [
+            "RGB_RED_LOW"
+          ]
+        },
+        {
+          "ref": "Q2",
+          "pin": "2",
+          "name": "S",
+          "electrical": 4,
+          "point": "40500000,59200000",
+          "x": 40500000,
+          "y": 59200000,
+          "uid": "XBEVWDUG",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "R17",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "15500000,55500000",
+          "x": 15500000,
+          "y": 55500000,
+          "uid": "NMCUGWGP",
+          "nets": [
+            "RGB_RED_GATE"
+          ]
+        },
+        {
+          "ref": "R17",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "20500000,55500000",
+          "x": 20500000,
+          "y": 55500000,
+          "uid": "POIEHXGX",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "R15",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "15500000,49000000",
+          "x": 15500000,
+          "y": 49000000,
+          "uid": "JTHZIRLD",
+          "nets": [
+            "LED_GREEN_GPIO25"
+          ]
+        },
+        {
+          "ref": "R15",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "20500000,49000000",
+          "x": 20500000,
+          "y": 49000000,
+          "uid": "PHVZOJOT",
+          "nets": [
+            "RGB_GREEN_GATE"
+          ]
+        },
+        {
+          "ref": "Q3",
+          "pin": "1",
+          "name": "G",
+          "electrical": 0,
+          "point": "31500000,49000000",
+          "x": 31500000,
+          "y": 49000000,
+          "uid": "VAOKYXWY",
+          "nets": [
+            "RGB_GREEN_GATE"
+          ]
+        },
+        {
+          "ref": "Q3",
+          "pin": "3",
+          "name": "D",
+          "electrical": 4,
+          "point": "40500000,50800000",
+          "x": 40500000,
+          "y": 50800000,
+          "uid": "SOOLXYWF",
+          "nets": [
+            "RGB_GREEN_LOW"
+          ]
+        },
+        {
+          "ref": "Q3",
+          "pin": "2",
+          "name": "S",
+          "electrical": 4,
+          "point": "40500000,47200000",
+          "x": 40500000,
+          "y": 47200000,
+          "uid": "EZEUWPHH",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "R21",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "15500000,43500000",
+          "x": 15500000,
+          "y": 43500000,
+          "uid": "MPBGNOKI",
+          "nets": [
+            "RGB_GREEN_GATE"
+          ]
+        },
+        {
+          "ref": "R21",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "20500000,43500000",
+          "x": 20500000,
+          "y": 43500000,
+          "uid": "AAXATQIU",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "R16",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "15500000,37000000",
+          "x": 15500000,
+          "y": 37000000,
+          "uid": "HLYUUJCM",
+          "nets": [
+            "LED_BLUE_GPIO27"
+          ]
+        },
+        {
+          "ref": "R16",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "20500000,37000000",
+          "x": 20500000,
+          "y": 37000000,
+          "uid": "RCRFNHRH",
+          "nets": [
+            "RGB_BLUE_GATE"
+          ]
+        },
+        {
+          "ref": "Q4",
+          "pin": "1",
+          "name": "G",
+          "electrical": 0,
+          "point": "31500000,37000000",
+          "x": 31500000,
+          "y": 37000000,
+          "uid": "UCCXJQFR",
+          "nets": [
+            "RGB_BLUE_GATE"
+          ]
+        },
+        {
+          "ref": "Q4",
+          "pin": "3",
+          "name": "D",
+          "electrical": 4,
+          "point": "40500000,38800000",
+          "x": 40500000,
+          "y": 38800000,
+          "uid": "WKDJVNJH",
+          "nets": [
+            "RGB_BLUE_LOW"
+          ]
+        },
+        {
+          "ref": "Q4",
+          "pin": "2",
+          "name": "S",
+          "electrical": 4,
+          "point": "40500000,35200000",
+          "x": 40500000,
+          "y": 35200000,
+          "uid": "LPRJQJTB",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "R23",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "15500000,31500000",
+          "x": 15500000,
+          "y": 31500000,
+          "uid": "IKTOFCYK",
+          "nets": [
+            "RGB_BLUE_GATE"
+          ]
+        },
+        {
+          "ref": "R23",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "20500000,31500000",
+          "x": 20500000,
+          "y": 31500000,
+          "uid": "QCDIXENR",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "J5",
+          "pin": "1",
+          "name": "+12V",
+          "electrical": 7,
+          "point": "79800000,58400000",
+          "x": 79800000,
+          "y": 58400000,
+          "uid": "GTZYALJM",
+          "nets": [
+            "12V_RGB_FUSED"
+          ]
+        },
+        {
+          "ref": "J5",
+          "pin": "2",
+          "name": "R-",
+          "electrical": 4,
+          "point": "79800000,56800000",
+          "x": 79800000,
+          "y": 56800000,
+          "uid": "SWCLAVJA",
+          "nets": [
+            "RGB_RED_LOW"
+          ]
+        },
+        {
+          "ref": "J5",
+          "pin": "3",
+          "name": "G-",
+          "electrical": 4,
+          "point": "79800000,55200000",
+          "x": 79800000,
+          "y": 55200000,
+          "uid": "SIVQAFMB",
+          "nets": [
+            "RGB_GREEN_LOW"
+          ]
+        },
+        {
+          "ref": "J5",
+          "pin": "4",
+          "name": "B-",
+          "electrical": 4,
+          "point": "79800000,53600000",
+          "x": 79800000,
+          "y": 53600000,
+          "uid": "LAXMRCRJ",
+          "nets": [
+            "RGB_BLUE_LOW"
+          ]
+        },
+        {
+          "ref": "F2",
+          "pin": "1",
+          "electrical": 4,
+          "point": "72500000,65000000",
+          "x": 72500000,
+          "y": 65000000,
+          "uid": "VEFPKNIM",
+          "nets": [
+            "12V_SENSOR"
+          ]
+        },
+        {
+          "ref": "F2",
+          "pin": "2",
+          "electrical": 4,
+          "point": "79500000,65000000",
+          "x": 79500000,
+          "y": 65000000,
+          "uid": "XGVHJGAH",
+          "nets": [
+            "12V_RGB_FUSED"
+          ]
+        },
+        {
+          "ref": "SW1",
+          "pin": "1",
+          "name": "GPIO",
+          "electrical": 4,
+          "point": "16300000,27000000",
+          "x": 16300000,
+          "y": 27000000,
+          "uid": "JECAEVKZ",
+          "nets": [
+            "BUTTON_GPIO13"
+          ]
+        },
+        {
+          "ref": "SW1",
+          "pin": "2",
+          "name": "GND",
+          "electrical": 4,
+          "point": "25700000,27000000",
+          "x": 25700000,
+          "y": 27000000,
+          "uid": "LESJDQQH",
+          "nets": [
+            "GND"
+          ]
+        },
+        {
+          "ref": "R22",
+          "pin": "1",
+          "name": "1",
+          "electrical": 4,
+          "point": "35500000,27000000",
+          "x": 35500000,
+          "y": 27000000,
+          "uid": "CSXTYZYO",
+          "nets": [
+            "3V3"
+          ]
+        },
+        {
+          "ref": "R22",
+          "pin": "2",
+          "name": "2",
+          "electrical": 4,
+          "point": "40500000,27000000",
+          "x": 40500000,
+          "y": 27000000,
+          "uid": "HERSBNOX",
+          "nets": [
+            "BUTTON_GPIO13"
+          ]
+        }
+      ],
+      "duplicatePins": [],
+      "shorts": []
+    }
+  }
+}
