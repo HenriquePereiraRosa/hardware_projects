@@ -1,4 +1,4 @@
 Record=TopLevelDocument|FileName=01_System_Overview.SchDoc|SheetNumber=01
-Record=SheetSymbol|SourceDocument=01_System_Overview.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=03_Beam_Inputs.SchDoc|SheetNumber=03|SymbolType=Normal|RawFileName=03_Beam_Inputs.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=NoMainPathDocument|SourceDocument=01_System_Overview.SchDoc|FileName=02_Power_Control.SchDoc|SheetNumber=02
+Record=NoMainPathDocument|SourceDocument=01_System_Overview.SchDoc|FileName=03_Beam_Inputs.SchDoc|SheetNumber=03
 Record=NoMainPathDocument|SourceDocument=01_System_Overview.SchDoc|FileName=05_Optical_Heads.SchDoc|SheetNumber=05
